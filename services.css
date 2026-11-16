@@ -1,0 +1,1330 @@
+/* ================================================================
+   THE CHORE FACILITATOR
+   SERVICES
+   ALTO STUDIO
+================================================================ */
+
+
+/* ================================================================
+   HERO
+================================================================ */
+
+.svc-hero {
+
+    padding:
+        125px 0
+        120px;
+
+    background:
+        var(--white);
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.svc-hero-top {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        40px;
+
+}
+
+
+.svc-hero-index {
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.7rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+}
+
+
+.svc-hero-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.35fr)
+        minmax(320px, 0.65fr);
+
+    gap:
+        clamp(
+            70px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        end;
+
+    margin-top:
+        60px;
+
+}
+
+
+.svc-hero-heading h1 {
+
+    max-width:
+        980px;
+
+    font-size:
+        clamp(
+            4rem,
+            8vw,
+            8.3rem
+        );
+
+    line-height:
+        0.93;
+
+    letter-spacing:
+        -0.07em;
+
+}
+
+
+.svc-hero-heading h1 span {
+
+    display:
+        block;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.svc-hero-copy p {
+
+    max-width:
+        460px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.svc-hero-lead {
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.35rem;
+
+    font-weight:
+        500;
+
+    line-height:
+        1.5 !important;
+
+    letter-spacing:
+        -0.025em;
+
+}
+
+
+.svc-hero-copy p + p {
+
+    margin-top:
+        22px;
+
+}
+
+
+
+/* ================================================================
+   HERO NAV
+================================================================ */
+
+.svc-hero-nav {
+
+    margin-top:
+        45px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.svc-hero-nav a {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        45px
+        1fr;
+
+    gap:
+        15px;
+
+    padding:
+        15px 0;
+
+    border-bottom:
+        1px solid var(--line);
+
+    font-size:
+        0.82rem;
+
+    font-weight:
+        600;
+
+    transition:
+        padding var(--transition),
+        color var(--transition);
+
+}
+
+
+.svc-hero-nav a span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.65rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.svc-hero-nav a:hover {
+
+    padding-left:
+        7px;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+
+/* ================================================================
+   FEATURES
+================================================================ */
+
+.svc-feature {
+
+    padding:
+        130px 0;
+
+    background:
+        var(--white);
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.svc-feature-alt {
+
+    background:
+        var(--warm-white);
+
+}
+
+
+.svc-feature-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.1fr)
+        minmax(340px, 0.9fr);
+
+    gap:
+        clamp(
+            65px,
+            8vw,
+            120px
+        );
+
+    align-items:
+        center;
+
+}
+
+
+
+/* ================================================================
+   IMAGE
+================================================================ */
+
+.svc-image,
+.svc-placeholder {
+
+    position:
+        relative;
+
+    min-height:
+        720px;
+
+    overflow:
+        hidden;
+
+    background:
+        var(--charcoal);
+
+}
+
+
+.svc-image img {
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    width:
+        100%;
+
+    height:
+        100%;
+
+    object-fit:
+        cover;
+
+    object-position:
+        center;
+
+    transition:
+        transform 850ms
+        cubic-bezier(.2, .7, .2, 1);
+
+}
+
+
+.svc-feature:hover
+.svc-image img {
+
+    transform:
+        scale(1.025);
+
+}
+
+
+.svc-image::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    inset:
+        0;
+
+    background:
+        linear-gradient(
+            to top,
+            rgba(10, 13, 14, 0.56),
+            rgba(10, 13, 14, 0) 48%
+        );
+
+}
+
+
+.svc-image-number {
+
+    position:
+        absolute;
+
+    z-index:
+        3;
+
+    left:
+        32px;
+
+    bottom:
+        28px;
+
+    color:
+        var(--white);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5.5rem
+        );
+
+    font-weight:
+        500;
+
+    line-height:
+        1;
+
+    letter-spacing:
+        -0.06em;
+
+}
+
+
+
+/* ================================================================
+   PLACEHOLDER
+================================================================ */
+
+.svc-placeholder {
+
+    padding:
+        32px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        space-between;
+
+    color:
+        var(--white);
+
+}
+
+
+.svc-placeholder::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    width:
+        520px;
+
+    height:
+        520px;
+
+    right:
+        -280px;
+
+    bottom:
+        -250px;
+
+    border:
+        1px solid rgba(67, 188, 169, 0.28);
+
+    border-radius:
+        50%;
+
+}
+
+
+.svc-placeholder::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    top:
+        50%;
+
+    left:
+        32px;
+
+    right:
+        32px;
+
+    height:
+        1px;
+
+    background:
+        rgba(255, 255, 255, 0.12);
+
+}
+
+
+.svc-placeholder-index {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    color:
+        var(--teal);
+
+    font-size:
+        0.66rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.14em;
+
+}
+
+
+.svc-placeholder > div {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    margin-bottom:
+        95px;
+
+}
+
+
+.svc-placeholder > div > span {
+
+    color:
+        rgba(255, 255, 255, 0.42);
+
+    font-size:
+        0.65rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.14em;
+
+}
+
+
+.svc-placeholder > div p {
+
+    max-width:
+        440px;
+
+    margin-top:
+        15px;
+
+    color:
+        var(--white);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.8rem,
+            3vw,
+            3.2rem
+        );
+
+    line-height:
+        1.2;
+
+    letter-spacing:
+        -0.04em;
+
+}
+
+
+
+/* ================================================================
+   SERVICE COPY
+================================================================ */
+
+.svc-copy {
+
+    max-width:
+        590px;
+
+}
+
+
+.svc-label {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.7rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+}
+
+
+.svc-copy h2 {
+
+    margin-top:
+        24px;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5.3rem
+        );
+
+}
+
+
+.svc-lead {
+
+    margin-top:
+        38px;
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.35rem,
+            2vw,
+            1.9rem
+        );
+
+    line-height:
+        1.5;
+
+    letter-spacing:
+        -0.025em;
+
+}
+
+
+.svc-copy > p:not(.svc-lead) {
+
+    max-width:
+        540px;
+
+    margin-top:
+        22px;
+
+    line-height:
+        1.85;
+
+}
+
+
+
+/* ================================================================
+   MATCH LIST
+================================================================ */
+
+.svc-match-list {
+
+    margin-top:
+        44px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.svc-match-list div {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        45px
+        1fr;
+
+    gap:
+        18px;
+
+    padding:
+        16px 0;
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.svc-match-list span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.65rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.svc-match-list p {
+
+    color:
+        var(--charcoal);
+
+}
+
+
+
+/* ================================================================
+   INTERLUDE
+================================================================ */
+
+.svc-interlude {
+
+    padding:
+        100px 0;
+
+    background:
+        var(--deep-teal);
+
+    color:
+        var(--white);
+
+}
+
+
+.svc-interlude-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        0.45fr
+        1.55fr;
+
+    gap:
+        80px;
+
+}
+
+
+.svc-interlude-grid > span {
+
+    color:
+        rgba(255, 255, 255, 0.55);
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.svc-interlude-grid p {
+
+    max-width:
+        900px;
+
+    color:
+        var(--white);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            2.7rem,
+            5vw,
+            5.8rem
+        );
+
+    font-weight:
+        500;
+
+    line-height:
+        1.06;
+
+    letter-spacing:
+        -0.055em;
+
+}
+
+
+
+/* ================================================================
+   FACTORS
+================================================================ */
+
+.svc-factors {
+
+    padding:
+        130px 0;
+
+    background:
+        var(--white);
+
+}
+
+
+.svc-factors-heading {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        1.2fr
+        0.8fr;
+
+    gap:
+        100px;
+
+    align-items:
+        end;
+
+    margin-bottom:
+        70px;
+
+}
+
+
+.svc-factors-heading h2 {
+
+    max-width:
+        750px;
+
+    margin-top:
+        22px;
+
+}
+
+
+.svc-factors-heading > p {
+
+    max-width:
+        430px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.svc-factor-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+
+    border-top:
+        1px solid var(--charcoal);
+
+    border-left:
+        1px solid var(--line);
+
+}
+
+
+.svc-factor-grid article {
+
+    min-height:
+        280px;
+
+    padding:
+        30px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    border-right:
+        1px solid var(--line);
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.svc-factor-grid article > span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.67rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.svc-factor-grid h3 {
+
+    margin-top:
+        auto;
+
+    font-size:
+        clamp(
+            1.6rem,
+            2.3vw,
+            2.5rem
+        );
+
+    letter-spacing:
+        -0.035em;
+
+}
+
+
+.svc-factor-grid p {
+
+    margin-top:
+        12px;
+
+    line-height:
+        1.7;
+
+}
+
+
+
+/* ================================================================
+   CLOSE
+================================================================ */
+
+.svc-close {
+
+    padding:
+        115px 0;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+}
+
+
+.svc-close-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        0.55fr
+        1.45fr;
+
+    gap:
+        90px;
+
+}
+
+
+.svc-close-grid > div:first-child > span {
+
+    color:
+        var(--teal);
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.svc-close h2 {
+
+    max-width:
+        850px;
+
+    color:
+        var(--white);
+
+}
+
+
+.svc-close p {
+
+    max-width:
+        580px;
+
+    margin-top:
+        28px;
+
+    color:
+        rgba(255, 255, 255, 0.68);
+
+    font-size:
+        1.04rem;
+
+    line-height:
+        1.8;
+
+}
+
+
+.svc-close-actions {
+
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        12px;
+
+    margin-top:
+        40px;
+
+}
+
+
+
+/* ================================================================
+   TABLET
+================================================================ */
+
+@media (max-width: 1050px) {
+
+    .svc-hero-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            60px;
+
+    }
+
+
+    .svc-hero-copy {
+
+        max-width:
+            680px;
+
+    }
+
+
+    .svc-feature-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .svc-feature-alt
+    .svc-copy {
+
+        order:
+            2;
+
+    }
+
+
+    .svc-feature-alt
+    .svc-image {
+
+        order:
+            1;
+
+    }
+
+
+    .svc-image,
+    .svc-placeholder {
+
+        min-height:
+            620px;
+
+    }
+
+
+    .svc-copy {
+
+        max-width:
+            720px;
+
+    }
+
+
+    .svc-factors-heading {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            35px;
+
+    }
+
+
+    .svc-factor-grid {
+
+        grid-template-columns:
+            repeat(
+                2,
+                minmax(0, 1fr)
+            );
+
+    }
+
+
+    .svc-close-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            45px;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   MOBILE
+================================================================ */
+
+@media (max-width: 700px) {
+
+    .svc-hero {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .svc-hero-top {
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .svc-hero-heading h1 {
+
+        font-size:
+            clamp(
+                3.5rem,
+                15vw,
+                5.8rem
+            );
+
+    }
+
+
+    .svc-feature {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .svc-image,
+    .svc-placeholder {
+
+        min-height:
+            500px;
+
+    }
+
+
+    .svc-copy h2 {
+
+        font-size:
+            clamp(
+                2.8rem,
+                11vw,
+                4.5rem
+            );
+
+    }
+
+
+    .svc-interlude {
+
+        padding:
+            75px 0;
+
+    }
+
+
+    .svc-interlude-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            35px;
+
+    }
+
+
+    .svc-factors {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .svc-factor-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .svc-factor-grid article {
+
+        min-height:
+            230px;
+
+    }
+
+
+    .svc-close {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .svc-close-actions {
+
+        flex-direction:
+            column;
+
+    }
+
+
+    .svc-close-actions .btn {
+
+        width:
+            100%;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   SMALL MOBILE
+================================================================ */
+
+@media (max-width: 480px) {
+
+    .svc-hero-top {
+
+        flex-direction:
+            column;
+
+        gap:
+            10px;
+
+    }
+
+
+    .svc-image-number {
+
+        left:
+            24px;
+
+        bottom:
+            22px;
+
+    }
+
+
+    .svc-placeholder {
+
+        padding:
+            24px;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   REDUCED MOTION
+================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .svc-image img,
+    .svc-hero-nav a {
+
+        transition:
+            none;
+
+    }
+
+}

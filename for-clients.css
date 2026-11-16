@@ -1,0 +1,2034 @@
+/* ================================================================
+   THE CHORE FACILITATOR
+   FOR CLIENTS
+   ALTO STUDIO
+================================================================ */
+
+
+/* ================================================================
+   HERO
+================================================================ */
+
+.client-hero {
+
+    padding:
+        125px 0
+        120px;
+
+    background:
+        var(--white);
+
+}
+
+
+.client-hero-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.15fr)
+        minmax(360px, .85fr);
+
+    gap:
+        clamp(
+            70px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        stretch;
+
+}
+
+
+.client-hero-main {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        center;
+
+}
+
+
+.client-hero-main h1 {
+
+    max-width:
+        900px;
+
+    margin-top:
+        28px;
+
+    font-size:
+        clamp(
+            4rem,
+            8vw,
+            8.2rem
+        );
+
+    line-height:
+        .93;
+
+    letter-spacing:
+        -.07em;
+
+}
+
+
+.client-hero-main h1 span {
+
+    display:
+        block;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.client-hero-main > p {
+
+    max-width:
+        610px;
+
+    margin-top:
+        38px;
+
+    font-size:
+        1.08rem;
+
+    line-height:
+        1.85;
+
+}
+
+
+.client-hero-link {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    max-width:
+        610px;
+
+    margin-top:
+        45px;
+
+    padding-top:
+        18px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .82rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-hero-link span {
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.client-hero-link:hover span {
+
+    transform:
+        translateY(4px);
+
+}
+
+
+
+/* ================================================================
+   HERO PANEL
+================================================================ */
+
+.client-hero-panel {
+
+    min-height:
+        630px;
+
+    padding:
+        38px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+}
+
+
+.client-hero-panel-top {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .42
+        );
+
+    font-size:
+        .67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .15em;
+
+}
+
+
+.client-hero-panel-content {
+
+    margin-top:
+        auto;
+
+}
+
+
+.client-panel-title {
+
+    max-width:
+        440px;
+
+    color:
+        var(--white);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.9rem,
+            2.8vw,
+            3rem
+        );
+
+    line-height:
+        1.25;
+
+    letter-spacing:
+        -.04em;
+
+}
+
+
+.client-panel-services {
+
+    margin-top:
+        50px;
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            .3
+        );
+
+}
+
+
+.client-panel-services div {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        45px
+        1fr;
+
+    gap:
+        18px;
+
+    padding:
+        17px 0;
+
+    border-bottom:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            .15
+        );
+
+}
+
+
+.client-panel-services span {
+
+    color:
+        var(--teal);
+
+    font-size:
+        .65rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-panel-services p {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .8
+        );
+
+}
+
+
+
+/* ================================================================
+   INTRO
+================================================================ */
+
+.client-intro {
+
+    padding:
+        100px 0;
+
+    background:
+        var(--teal-light);
+
+}
+
+
+.client-intro-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        140px
+        1.1fr
+        .9fr;
+
+    gap:
+        clamp(
+            40px,
+            7vw,
+            100px
+        );
+
+    align-items:
+        end;
+
+}
+
+
+.client-intro-index {
+
+    align-self:
+        start;
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .14em;
+
+}
+
+
+.client-intro h2 {
+
+    max-width:
+        700px;
+
+}
+
+
+.client-intro-grid > div:last-child p {
+
+    max-width:
+        460px;
+
+    line-height:
+        1.85;
+
+}
+
+
+
+/* ================================================================
+   FORM LAYOUT
+================================================================ */
+
+.client-form-section {
+
+    padding:
+        130px 0;
+
+    background:
+        var(--white);
+
+}
+
+
+.client-form-layout {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        280px
+        minmax(0, 1fr);
+
+    gap:
+        clamp(
+            70px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        start;
+
+}
+
+
+
+/* ================================================================
+   RAIL
+================================================================ */
+
+.client-form-rail {
+
+    position:
+        sticky;
+
+    top:
+        135px;
+
+}
+
+
+.client-form-rail h3 {
+
+    margin-top:
+        22px;
+
+    font-size:
+        2.4rem;
+
+    letter-spacing:
+        -.045em;
+
+}
+
+
+.client-form-rail > p {
+
+    max-width:
+        245px;
+
+    margin-top:
+        20px;
+
+    line-height:
+        1.8;
+
+}
+
+
+.client-form-nav {
+
+    margin-top:
+        50px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.client-form-nav a {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        40px
+        1fr;
+
+    gap:
+        12px;
+
+    padding:
+        14px 0;
+
+    border-bottom:
+        1px solid var(--line);
+
+    color:
+        var(--body);
+
+    font-size:
+        .78rem;
+
+    transition:
+        color var(--transition),
+        padding var(--transition);
+
+}
+
+
+.client-form-nav a span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .62rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-form-nav a:hover {
+
+    padding-left:
+        6px;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+
+/* ================================================================
+   QUESTIONNAIRE
+================================================================ */
+
+.client-questionnaire {
+
+    min-width:
+        0;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.client-form-block {
+
+    margin:
+        0;
+
+    padding:
+        80px 0;
+
+    border:
+        0;
+
+    border-bottom:
+        1px solid var(--line-strong);
+
+    scroll-margin-top:
+        120px;
+
+}
+
+
+.client-form-heading {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        80px
+        1fr;
+
+    gap:
+        30px;
+
+    margin-bottom:
+        55px;
+
+}
+
+
+.client-form-number {
+
+    color:
+        var(--deep-teal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        2.5rem;
+
+    font-weight:
+        500;
+
+    line-height:
+        1;
+
+    letter-spacing:
+        -.06em;
+
+}
+
+
+.client-form-heading p {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .65rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .14em;
+
+}
+
+
+.client-form-heading h2 {
+
+    max-width:
+        700px;
+
+    margin-top:
+        10px;
+
+    font-size:
+        clamp(
+            2.5rem,
+            4vw,
+            4.4rem
+        );
+
+}
+
+
+
+/* ================================================================
+   FIELD GRID
+================================================================ */
+
+.client-field-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            2,
+            minmax(0, 1fr)
+        );
+
+    gap:
+        32px;
+
+}
+
+
+.client-field {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    gap:
+        10px;
+
+}
+
+
+.client-field-full {
+
+    margin-top:
+        38px;
+
+}
+
+
+.client-field label {
+
+    color:
+        var(--charcoal);
+
+    font-size:
+        .78rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-field input,
+.client-field select,
+.client-field textarea,
+.client-requirement-row select,
+.client-health-panel select {
+
+    width:
+        100%;
+
+    border:
+        0;
+
+    border-bottom:
+        1px solid var(--line-strong);
+
+    border-radius:
+        0;
+
+    padding:
+        16px 0;
+
+    background:
+        transparent;
+
+    color:
+        var(--charcoal);
+
+    outline:
+        0;
+
+    transition:
+        border-color var(--transition);
+
+}
+
+
+.client-field input,
+.client-field select {
+
+    min-height:
+        54px;
+
+}
+
+
+.client-field textarea {
+
+    min-height:
+        180px;
+
+    resize:
+        vertical;
+
+    line-height:
+        1.7;
+
+}
+
+
+.client-field input:focus,
+.client-field select:focus,
+.client-field textarea:focus,
+.client-requirement-row select:focus,
+.client-health-panel select:focus {
+
+    border-color:
+        var(--deep-teal);
+
+}
+
+
+.client-field textarea::placeholder,
+.client-field input::placeholder {
+
+    color:
+        var(--body-light);
+
+}
+
+
+
+/* ================================================================
+   SECURITY NOTE
+================================================================ */
+
+.client-security-note {
+
+    margin-top:
+        28px;
+
+    padding-left:
+        20px;
+
+    border-left:
+        2px solid var(--deep-teal);
+
+    color:
+        var(--body-light);
+
+    font-size:
+        .77rem;
+
+    line-height:
+        1.7;
+
+}
+
+
+
+/* ================================================================
+   CHOICE BLOCK
+================================================================ */
+
+.client-choice-block {
+
+    margin-top:
+        45px;
+
+    padding:
+        28px;
+
+    background:
+        var(--warm-white);
+
+}
+
+
+.client-choice-title {
+
+    color:
+        var(--charcoal);
+
+    font-weight:
+        600;
+
+}
+
+
+.client-choice-row {
+
+    display:
+        flex;
+
+    flex-wrap:
+        wrap;
+
+    gap:
+        10px;
+
+    margin-top:
+        22px;
+
+}
+
+
+.client-choice-row label {
+
+    position:
+        relative;
+
+    cursor:
+        pointer;
+
+}
+
+
+.client-choice-row input {
+
+    position:
+        absolute;
+
+    opacity:
+        0;
+
+    pointer-events:
+        none;
+
+}
+
+
+.client-choice-row span {
+
+    display:
+        inline-flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    min-height:
+        46px;
+
+    padding:
+        0 20px;
+
+    border:
+        1px solid var(--line-strong);
+
+    background:
+        var(--white);
+
+    color:
+        var(--charcoal);
+
+    font-size:
+        .8rem;
+
+    font-weight:
+        600;
+
+    transition:
+        background var(--transition),
+        color var(--transition),
+        border-color var(--transition);
+
+}
+
+
+.client-choice-row input:checked + span {
+
+    border-color:
+        var(--deep-teal);
+
+    background:
+        var(--deep-teal);
+
+    color:
+        var(--white);
+
+}
+
+
+.client-choice-row input:focus-visible + span {
+
+    outline:
+        3px solid var(--teal);
+
+    outline-offset:
+        3px;
+
+}
+
+
+
+/* ================================================================
+   PRACTICAL REQUIREMENT ROWS
+================================================================ */
+
+.client-requirement-row {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        250px;
+
+    gap:
+        50px;
+
+    align-items:
+        end;
+
+    padding:
+        32px 0;
+
+    border-top:
+        1px solid var(--line);
+
+}
+
+
+.client-requirement-row:last-child {
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.client-question-index {
+
+    display:
+        block;
+
+    margin-bottom:
+        18px;
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .65rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-requirement-row h3 {
+
+    font-size:
+        1.6rem;
+
+    letter-spacing:
+        -.03em;
+
+}
+
+
+.client-requirement-row p {
+
+    max-width:
+        480px;
+
+    margin-top:
+        8px;
+
+    line-height:
+        1.7;
+
+}
+
+
+
+/* ================================================================
+   HEALTH PANEL
+================================================================ */
+
+.client-health-panel {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        .85fr
+        1.15fr;
+
+    gap:
+        70px;
+
+    margin-top:
+        55px;
+
+    padding:
+        40px;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+}
+
+
+.client-health-panel > div:first-child > span {
+
+    color:
+        var(--teal);
+
+    font-size:
+        .65rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .14em;
+
+}
+
+
+.client-health-panel h3 {
+
+    max-width:
+        380px;
+
+    margin-top:
+        18px;
+
+    color:
+        var(--white);
+
+    font-size:
+        clamp(
+            2rem,
+            3vw,
+            3.2rem
+        );
+
+}
+
+
+.client-health-panel p {
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .72
+        );
+
+    line-height:
+        1.75;
+
+}
+
+
+.client-health-panel select {
+
+    margin-top:
+        25px;
+
+    border-color:
+        rgba(
+            255,
+            255,
+            255,
+            .3
+        );
+
+    color:
+        var(--white);
+
+}
+
+
+.client-health-panel select option {
+
+    color:
+        var(--charcoal);
+
+}
+
+
+.client-health-panel small {
+
+    display:
+        block;
+
+    margin-top:
+        18px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .48
+        );
+
+    font-size:
+        .73rem;
+
+    line-height:
+        1.65;
+
+}
+
+
+
+/* ================================================================
+   CONSENT
+================================================================ */
+
+.client-consent {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        20px
+        1fr;
+
+    gap:
+        14px;
+
+    max-width:
+        750px;
+
+    margin-top:
+        45px;
+
+}
+
+
+.client-consent input {
+
+    width:
+        18px;
+
+    height:
+        18px;
+
+    margin-top:
+        3px;
+
+    accent-color:
+        var(--deep-teal);
+
+}
+
+
+.client-consent label {
+
+    color:
+        var(--body);
+
+    font-size:
+        .84rem;
+
+    line-height:
+        1.7;
+
+}
+
+
+.client-consent a {
+
+    color:
+        var(--deep-teal);
+
+    text-decoration:
+        underline;
+
+}
+
+
+
+/* ================================================================
+   SUBMIT
+================================================================ */
+
+.client-form-final {
+
+    padding-bottom:
+        0;
+
+    border-bottom:
+        0;
+
+}
+
+
+.client-submit-area {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        .8fr
+        1.2fr;
+
+    gap:
+        50px;
+
+    align-items:
+        end;
+
+    margin-top:
+        55px;
+
+    padding-top:
+        30px;
+
+    border-top:
+        1px solid var(--line-strong);
+
+}
+
+
+.client-submit-area > div > span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        .64rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .14em;
+
+}
+
+
+.client-submit-area > div p {
+
+    max-width:
+        370px;
+
+    margin-top:
+        10px;
+
+    font-size:
+        .76rem;
+
+    line-height:
+        1.7;
+
+}
+
+
+.client-submit-button {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    width:
+        100%;
+
+    min-height:
+        82px;
+
+    padding:
+        0 28px;
+
+    border:
+        0;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+    font-size:
+        .86rem;
+
+    font-weight:
+        700;
+
+    cursor:
+        default;
+
+}
+
+
+.client-submit-button span {
+
+    color:
+        var(--teal);
+
+    font-size:
+        1.15rem;
+
+}
+
+
+
+/* ================================================================
+   AFTER
+================================================================ */
+
+.client-after {
+
+    padding:
+        120px 0;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+}
+
+
+.client-after-head {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    padding-bottom:
+        25px;
+
+    border-bottom:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            .25
+        );
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .45
+        );
+
+    font-size:
+        .67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        .15em;
+
+}
+
+
+.client-after-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(
+            3,
+            minmax(0, 1fr)
+        );
+
+    margin-top:
+        70px;
+
+}
+
+
+.client-after-grid article {
+
+    min-height:
+        300px;
+
+    padding:
+        0 35px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+}
+
+
+.client-after-grid article:first-child {
+
+    padding-left:
+        0;
+
+}
+
+
+.client-after-grid article:last-child {
+
+    padding-right:
+        0;
+
+}
+
+
+.client-after-grid article + article {
+
+    border-left:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            .16
+        );
+
+}
+
+
+.client-after-grid article > span {
+
+    color:
+        var(--teal);
+
+    font-size:
+        .68rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-after-grid h3 {
+
+    margin-top:
+        auto;
+
+    color:
+        var(--white);
+
+    font-size:
+        clamp(
+            1.7rem,
+            2.5vw,
+            2.8rem
+        );
+
+    letter-spacing:
+        -.04em;
+
+}
+
+
+.client-after-grid p {
+
+    margin-top:
+        18px;
+
+    color:
+        rgba(
+            255,
+            255,
+            255,
+            .65
+        );
+
+    line-height:
+        1.75;
+
+}
+
+
+.client-after-footer {
+
+    display:
+        flex;
+
+    justify-content:
+        flex-end;
+
+    margin-top:
+        65px;
+
+    padding-top:
+        24px;
+
+    border-top:
+        1px solid
+        rgba(
+            255,
+            255,
+            255,
+            .25
+        );
+
+}
+
+
+.client-after-footer a {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        20px;
+
+    color:
+        var(--white);
+
+    font-size:
+        .82rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.client-after-footer a span {
+
+    color:
+        var(--teal);
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.client-after-footer a:hover span {
+
+    transform:
+        translate(
+            4px,
+            -4px
+        );
+
+}
+
+
+
+/* ================================================================
+   TABLET
+================================================================ */
+
+@media (max-width: 1050px) {
+
+    .client-hero-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .client-hero-panel {
+
+        min-height:
+            520px;
+
+    }
+
+
+    .client-intro-grid {
+
+        grid-template-columns:
+            100px
+            1fr;
+
+    }
+
+
+    .client-intro-grid > div:last-child {
+
+        grid-column:
+            2;
+
+    }
+
+
+    .client-form-layout {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            70px;
+
+    }
+
+
+    .client-form-rail {
+
+        position:
+            static;
+
+    }
+
+
+    .client-form-nav {
+
+        display:
+            grid;
+
+        grid-template-columns:
+            repeat(
+                2,
+                1fr
+            );
+
+    }
+
+
+    .client-form-nav a:nth-child(even) {
+
+        padding-left:
+            20px;
+
+        border-left:
+            1px solid var(--line);
+
+    }
+
+
+    .client-health-panel {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            35px;
+
+    }
+
+
+    .client-after-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .client-after-grid article {
+
+        min-height:
+            auto;
+
+        padding:
+            35px 0;
+
+    }
+
+
+    .client-after-grid article + article {
+
+        border-left:
+            0;
+
+        border-top:
+            1px solid
+            rgba(
+                255,
+                255,
+                255,
+                .16
+            );
+
+    }
+
+
+    .client-after-grid h3 {
+
+        margin-top:
+            55px;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   MOBILE
+================================================================ */
+
+@media (max-width: 700px) {
+
+    .client-hero {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .client-hero-main h1 {
+
+        font-size:
+            clamp(
+                3.5rem,
+                15vw,
+                5.8rem
+            );
+
+    }
+
+
+    .client-hero-panel {
+
+        min-height:
+            480px;
+
+        padding:
+            30px;
+
+    }
+
+
+    .client-intro {
+
+        padding:
+            75px 0;
+
+    }
+
+
+    .client-intro-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            25px;
+
+    }
+
+
+    .client-intro-grid > div:last-child {
+
+        grid-column:
+            auto;
+
+    }
+
+
+    .client-form-section {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .client-form-nav {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .client-form-nav a:nth-child(even) {
+
+        padding-left:
+            0;
+
+        border-left:
+            0;
+
+    }
+
+
+    .client-form-block {
+
+        padding:
+            60px 0;
+
+    }
+
+
+    .client-form-heading {
+
+        grid-template-columns:
+            50px
+            1fr;
+
+        gap:
+            20px;
+
+        margin-bottom:
+            42px;
+
+    }
+
+
+    .client-form-number {
+
+        font-size:
+            2rem;
+
+    }
+
+
+    .client-field-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            26px;
+
+    }
+
+
+    .client-requirement-row {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            20px;
+
+    }
+
+
+    .client-health-panel {
+
+        padding:
+            30px;
+
+    }
+
+
+    .client-submit-area {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            30px;
+
+    }
+
+
+    .client-after {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .client-after-footer {
+
+        justify-content:
+            flex-start;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   SMALL MOBILE
+================================================================ */
+
+@media (max-width: 480px) {
+
+    .client-hero-panel-top {
+
+        flex-direction:
+            column;
+
+        gap:
+            10px;
+
+    }
+
+
+    .client-form-heading {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .client-form-number {
+
+        margin-bottom:
+            5px;
+
+    }
+
+
+    .client-choice-row {
+
+        flex-direction:
+            column;
+
+    }
+
+
+    .client-choice-row label,
+    .client-choice-row span {
+
+        width:
+            100%;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   REDUCED MOTION
+================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .client-hero-link span,
+    .client-after-footer a span {
+
+        transition:
+            none;
+
+    }
+
+}

@@ -1,0 +1,2572 @@
+/* ================================================================
+   THE CHORE FACILITATOR
+   HOW IT WORKS PAGE
+   ALTO STUDIO
+================================================================ */
+
+
+/* ================================================================
+   HERO
+================================================================ */
+
+.hiw-hero {
+
+    padding:
+        125px 0
+        120px;
+
+    background:
+        var(--white);
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.hiw-hero-top {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        40px;
+
+}
+
+
+.hiw-hero-index {
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.7rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+}
+
+
+.hiw-hero-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.35fr)
+        minmax(300px, 0.65fr);
+
+    gap:
+        clamp(
+            70px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        end;
+
+    margin-top:
+        60px;
+
+}
+
+
+.hiw-hero-heading h1 {
+
+    max-width:
+        950px;
+
+    font-size:
+        clamp(
+            4rem,
+            8vw,
+            8.4rem
+        );
+
+    line-height:
+        0.93;
+
+    letter-spacing:
+        -0.07em;
+
+}
+
+
+.hiw-hero-heading h1 span {
+
+    display:
+        block;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-hero-copy {
+
+    padding-bottom:
+        12px;
+
+}
+
+
+.hiw-hero-copy p {
+
+    max-width:
+        440px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.hiw-hero-copy .hiw-hero-lead {
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.35rem;
+
+    font-weight:
+        500;
+
+    line-height:
+        1.5;
+
+    letter-spacing:
+        -0.02em;
+
+}
+
+
+.hiw-hero-copy p + p {
+
+    margin-top:
+        24px;
+
+}
+
+
+.hiw-scroll-link {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    width:
+        100%;
+
+    margin-top:
+        46px;
+
+    padding-top:
+        18px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.82rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-scroll-link span {
+
+    font-size:
+        1.1rem;
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.hiw-scroll-link:hover span {
+
+    transform:
+        translateY(4px);
+
+}
+
+
+
+/* ================================================================
+   PROCESS
+================================================================ */
+
+.hiw-process {
+
+    padding:
+        130px 0;
+
+    background:
+        var(--white);
+
+}
+
+
+.hiw-process-layout {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        260px
+        minmax(0, 1fr);
+
+    gap:
+        clamp(
+            60px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        start;
+
+}
+
+
+
+/* ================================================================
+   PROCESS RAIL
+================================================================ */
+
+.hiw-process-rail {
+
+    position:
+        sticky;
+
+    top:
+        140px;
+
+}
+
+
+.hiw-process-rail > p {
+
+    max-width:
+        190px;
+
+    margin-top:
+        20px;
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.25rem;
+
+    line-height:
+        1.45;
+
+    letter-spacing:
+        -0.02em;
+
+}
+
+
+.hiw-rail-line {
+
+    position:
+        relative;
+
+    width:
+        1px;
+
+    height:
+        260px;
+
+    margin:
+        50px 0
+        0 8px;
+
+    background:
+        var(--line-strong);
+
+}
+
+
+.hiw-rail-line span {
+
+    position:
+        absolute;
+
+    top:
+        0;
+
+    left:
+        -3px;
+
+    width:
+        7px;
+
+    height:
+        7px;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--deep-teal);
+
+}
+
+
+
+/* ================================================================
+   PROCESS STEPS
+================================================================ */
+
+.hiw-process-steps {
+
+    min-width:
+        0;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.hiw-step {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        130px
+        minmax(0, 1fr);
+
+    gap:
+        clamp(
+            35px,
+            6vw,
+            90px
+        );
+
+    padding:
+        75px 0
+        95px;
+
+    border-bottom:
+        1px solid var(--line-strong);
+
+}
+
+
+.hiw-step-meta {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        space-between;
+
+    min-height:
+        160px;
+
+}
+
+
+.hiw-step-number {
+
+    color:
+        var(--deep-teal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        3rem;
+
+    font-weight:
+        500;
+
+    line-height:
+        1;
+
+    letter-spacing:
+        -0.06em;
+
+}
+
+
+.hiw-step-state {
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.65rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+    writing-mode:
+        vertical-rl;
+
+    transform:
+        rotate(180deg);
+
+    align-self:
+        flex-start;
+
+}
+
+
+.hiw-step-content {
+
+    min-width:
+        0;
+
+    max-width:
+        760px;
+
+}
+
+
+.hiw-step-content h2 {
+
+    max-width:
+        720px;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5.4rem
+        );
+
+}
+
+
+.hiw-step-lead {
+
+    max-width:
+        630px;
+
+    margin-top:
+        40px;
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.35rem,
+            2vw,
+            1.9rem
+        );
+
+    line-height:
+        1.5;
+
+    letter-spacing:
+        -0.025em;
+
+}
+
+
+.hiw-step-content > p:not(.hiw-step-lead) {
+
+    max-width:
+        610px;
+
+    margin-top:
+        24px;
+
+    line-height:
+        1.85;
+
+}
+
+
+
+/* ================================================================
+   STEP 01 DETAILS
+================================================================ */
+
+.hiw-detail-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    margin-top:
+        55px;
+
+    border-top:
+        1px solid var(--charcoal);
+
+}
+
+
+.hiw-detail-grid > div {
+
+    min-height:
+        150px;
+
+    padding:
+        20px 24px
+        20px 0;
+
+    border-bottom:
+        1px solid var(--line);
+
+}
+
+
+.hiw-detail-grid > div + div {
+
+    padding-left:
+        24px;
+
+    border-left:
+        1px solid var(--line);
+
+}
+
+
+.hiw-detail-grid span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.65rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.13em;
+
+}
+
+
+.hiw-detail-grid p {
+
+    margin-top:
+        40px;
+
+    color:
+        var(--charcoal);
+
+    line-height:
+        1.5;
+
+}
+
+
+
+/* ================================================================
+   IMAGE PLACEHOLDER
+================================================================ */
+
+.hiw-image-placeholder {
+
+    position:
+        relative;
+
+    min-height:
+        440px;
+
+    margin-top:
+        55px;
+
+    padding:
+        30px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        space-between;
+
+    overflow:
+        hidden;
+
+    background:
+        var(--charcoal-soft);
+
+    color:
+        var(--white);
+
+}
+
+
+.hiw-image-placeholder::before {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    width:
+        400px;
+
+    height:
+        400px;
+
+    right:
+        -200px;
+
+    bottom:
+        -220px;
+
+    border:
+        1px solid rgba(67, 188, 169, 0.3);
+
+    border-radius:
+        50%;
+
+}
+
+
+.hiw-image-placeholder::after {
+
+    content:
+        "";
+
+    position:
+        absolute;
+
+    left:
+        30px;
+
+    right:
+        30px;
+
+    top:
+        50%;
+
+    height:
+        1px;
+
+    background:
+        rgba(255, 255, 255, 0.12);
+
+}
+
+
+.hiw-placeholder-index {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+    color:
+        var(--teal);
+
+    font-size:
+        0.66rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.hiw-placeholder-copy {
+
+    position:
+        relative;
+
+    z-index:
+        2;
+
+}
+
+
+.hiw-placeholder-copy > span {
+
+    display:
+        block;
+
+    color:
+        rgba(255, 255, 255, 0.45);
+
+    font-size:
+        0.66rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.hiw-placeholder-copy p {
+
+    max-width:
+        390px;
+
+    margin-top:
+        12px;
+
+    color:
+        var(--white);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.5rem,
+            2.6vw,
+            2.7rem
+        );
+
+    line-height:
+        1.15;
+
+    letter-spacing:
+        -0.04em;
+
+}
+
+
+
+/* ================================================================
+   CONNECTION DIAGRAM
+================================================================ */
+
+.hiw-connection {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        160px
+        minmax(0, 1fr);
+
+    align-items:
+        stretch;
+
+    margin-top:
+        60px;
+
+    border:
+        1px solid var(--line-strong);
+
+}
+
+
+.hiw-connection-side {
+
+    min-height:
+        220px;
+
+    padding:
+        28px;
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    justify-content:
+        space-between;
+
+}
+
+
+.hiw-connection-index {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-connection-side strong {
+
+    display:
+        block;
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.5rem;
+
+    font-weight:
+        600;
+
+}
+
+
+.hiw-connection-side p {
+
+    margin-top:
+        8px;
+
+}
+
+
+.hiw-connection-center {
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    gap:
+        18px;
+
+    min-height:
+        220px;
+
+    background:
+        var(--teal-light);
+
+    text-align:
+        center;
+
+}
+
+
+.hiw-connection-center span {
+
+    width:
+        38px;
+
+    height:
+        1px;
+
+    background:
+        var(--deep-teal);
+
+}
+
+
+.hiw-connection-center p {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.64rem;
+
+    font-weight:
+        700;
+
+    line-height:
+        1.5;
+
+    letter-spacing:
+        0.13em;
+
+}
+
+
+
+/* ================================================================
+   STEP 04 DARK PANEL
+================================================================ */
+
+.hiw-step-dark {
+
+    margin:
+        0 -45px;
+
+    padding:
+        80px 45px;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+    border-bottom:
+        0;
+
+}
+
+
+.hiw-step-dark .hiw-step-number {
+
+    color:
+        var(--teal);
+
+}
+
+
+.hiw-step-dark .hiw-step-state {
+
+    color:
+        rgba(255, 255, 255, 0.42);
+
+}
+
+
+.hiw-step-dark h2 {
+
+    color:
+        var(--white);
+
+}
+
+
+.hiw-step-dark .hiw-step-lead {
+
+    color:
+        var(--white);
+
+}
+
+
+.hiw-step-dark
+.hiw-step-content > p:not(.hiw-step-lead) {
+
+    color:
+        rgba(255, 255, 255, 0.68);
+
+}
+
+
+.hiw-dark-link {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    width:
+        100%;
+
+    margin-top:
+        55px;
+
+    padding-top:
+        20px;
+
+    border-top:
+        1px solid rgba(255, 255, 255, 0.35);
+
+    color:
+        var(--white);
+
+    font-size:
+        0.84rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-dark-link span {
+
+    color:
+        var(--teal);
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.hiw-dark-link:hover span {
+
+    transform:
+        translate(4px, -4px);
+
+}
+
+
+
+/* ================================================================
+   CLIENT / CANDIDATE PERSPECTIVES
+================================================================ */
+
+.hiw-perspectives {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+}
+
+
+.hiw-perspective {
+
+    min-height:
+        760px;
+
+    padding:
+        clamp(
+            45px,
+            6vw,
+            90px
+        );
+
+    display:
+        flex;
+
+    flex-direction:
+        column;
+
+}
+
+
+.hiw-perspective-client {
+
+    background:
+        var(--deep-teal);
+
+    color:
+        var(--white);
+
+}
+
+
+.hiw-perspective-candidate {
+
+    background:
+        var(--warm-white);
+
+    color:
+        var(--charcoal);
+
+}
+
+
+.hiw-perspective-top {
+
+    display:
+        flex;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    font-size:
+        0.67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.hiw-perspective-client
+.hiw-perspective-top {
+
+    color:
+        rgba(255, 255, 255, 0.55);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-perspective-top {
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-perspective-content {
+
+    margin-top:
+        auto;
+
+}
+
+
+.hiw-perspective-kicker {
+
+    margin-bottom:
+        25px;
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.hiw-perspective-client
+.hiw-perspective-kicker {
+
+    color:
+        var(--teal);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-perspective-kicker {
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-perspective h2 {
+
+    max-width:
+        600px;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5.5rem
+        );
+
+}
+
+
+.hiw-perspective-client h2 {
+
+    color:
+        var(--white);
+
+}
+
+
+
+/* ================================================================
+   MINI PROCESS
+================================================================ */
+
+.hiw-mini-process {
+
+    margin-top:
+        55px;
+
+    padding:
+        0;
+
+    list-style:
+        none;
+
+    border-top:
+        1px solid currentColor;
+
+}
+
+
+.hiw-mini-process li {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        55px
+        1fr;
+
+    gap:
+        20px;
+
+    padding:
+        18px 0;
+
+    border-bottom:
+        1px solid currentColor;
+
+}
+
+
+.hiw-perspective-client
+.hiw-mini-process {
+
+    border-color:
+        rgba(255, 255, 255, 0.3);
+
+}
+
+
+.hiw-perspective-client
+.hiw-mini-process li {
+
+    border-color:
+        rgba(255, 255, 255, 0.2);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-mini-process {
+
+    border-color:
+        var(--line-strong);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-mini-process li {
+
+    border-color:
+        var(--line);
+
+}
+
+
+.hiw-mini-process li span {
+
+    font-size:
+        0.67rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-perspective-client
+.hiw-mini-process li span {
+
+    color:
+        var(--teal);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-mini-process li span {
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-mini-process p {
+
+    margin:
+        0;
+
+    color:
+        inherit;
+
+}
+
+
+.hiw-perspective-client
+.hiw-mini-process p {
+
+    color:
+        rgba(255, 255, 255, 0.83);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-mini-process p {
+
+    color:
+        var(--charcoal);
+
+}
+
+
+.hiw-perspective-link {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    margin-top:
+        42px;
+
+    padding-top:
+        20px;
+
+    border-top:
+        1px solid currentColor;
+
+    font-size:
+        0.83rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-perspective-client
+.hiw-perspective-link {
+
+    color:
+        var(--white);
+
+    border-color:
+        rgba(255, 255, 255, 0.35);
+
+}
+
+
+.hiw-perspective-candidate
+.hiw-perspective-link {
+
+    color:
+        var(--deep-teal);
+
+    border-color:
+        var(--line-strong);
+
+}
+
+
+.hiw-perspective-link span {
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.hiw-perspective-link:hover span {
+
+    transform:
+        translate(4px, -4px);
+
+}
+
+
+
+/* ================================================================
+   CONVERGENCE
+================================================================ */
+
+.hiw-converge {
+
+    padding:
+        130px 0;
+
+    background:
+        var(--white);
+
+}
+
+
+.hiw-converge-head {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        40px;
+
+}
+
+
+.hiw-converge-number {
+
+    color:
+        var(--deep-teal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        3rem;
+
+    font-weight:
+        500;
+
+    line-height:
+        1;
+
+    letter-spacing:
+        -0.06em;
+
+}
+
+
+.hiw-converge-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1.25fr)
+        minmax(300px, 0.75fr);
+
+    gap:
+        clamp(
+            70px,
+            9vw,
+            140px
+        );
+
+    align-items:
+        end;
+
+    margin-top:
+        55px;
+
+}
+
+
+.hiw-converge-title h2 {
+
+    max-width:
+        850px;
+
+    font-size:
+        clamp(
+            3.5rem,
+            6vw,
+            6.8rem
+        );
+
+}
+
+
+.hiw-converge-title h2 span {
+
+    display:
+        block;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-converge-copy p {
+
+    max-width:
+        460px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.hiw-converge-copy
+.hiw-converge-lead {
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.35rem;
+
+    line-height:
+        1.5;
+
+}
+
+
+.hiw-converge-copy p + p {
+
+    margin-top:
+        20px;
+
+}
+
+
+
+/* ================================================================
+   CONVERGENCE GRAPHIC
+================================================================ */
+
+.hiw-converge-graphic {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        minmax(0, 1fr)
+        220px
+        minmax(0, 1fr);
+
+    align-items:
+        center;
+
+    margin-top:
+        100px;
+
+}
+
+
+.hiw-converge-line {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    gap:
+        20px;
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.14em;
+
+}
+
+
+.hiw-converge-line:first-child {
+
+    flex-direction:
+        row-reverse;
+
+}
+
+
+.hiw-converge-line::before {
+
+    content:
+        "";
+
+    flex:
+        1;
+
+    height:
+        1px;
+
+    background:
+        var(--line-strong);
+
+}
+
+
+.hiw-converge-core {
+
+    width:
+        220px;
+
+    height:
+        220px;
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        center;
+
+    border-radius:
+        50%;
+
+    background:
+        var(--charcoal);
+
+    color:
+        var(--white);
+
+}
+
+
+.hiw-converge-core span {
+
+    font-size:
+        0.72rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.16em;
+
+}
+
+
+
+/* ================================================================
+   PAYROLL
+================================================================ */
+
+.hiw-payroll {
+
+    padding:
+        120px 0;
+
+    background:
+        var(--teal-light);
+
+}
+
+
+.hiw-payroll-grid {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        120px
+        minmax(0, 0.9fr)
+        minmax(0, 1.1fr);
+
+    gap:
+        clamp(
+            40px,
+            7vw,
+            100px
+        );
+
+    align-items:
+        start;
+
+}
+
+
+.hiw-payroll-index span {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.14em;
+
+}
+
+
+.hiw-payroll-heading h2 {
+
+    max-width:
+        600px;
+
+    margin-top:
+        22px;
+
+    font-size:
+        clamp(
+            3rem,
+            5vw,
+            5rem
+        );
+
+}
+
+
+.hiw-payroll-copy {
+
+    padding-top:
+        38px;
+
+}
+
+
+.hiw-payroll-copy p {
+
+    max-width:
+        580px;
+
+    line-height:
+        1.85;
+
+}
+
+
+.hiw-payroll-copy
+.hiw-payroll-lead {
+
+    color:
+        var(--charcoal);
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        1.35rem;
+
+    line-height:
+        1.5;
+
+}
+
+
+.hiw-payroll-copy p + p {
+
+    margin-top:
+        22px;
+
+}
+
+
+.hiw-payroll-note {
+
+    padding-left:
+        22px;
+
+    border-left:
+        2px solid var(--deep-teal);
+
+}
+
+
+
+/* ================================================================
+   NEXT STEP
+================================================================ */
+
+.hiw-next {
+
+    padding:
+        110px 0;
+
+    background:
+        var(--white);
+
+}
+
+
+.hiw-next-head {
+
+    display:
+        flex;
+
+    align-items:
+        center;
+
+    justify-content:
+        space-between;
+
+    gap:
+        30px;
+
+    padding-bottom:
+        25px;
+
+    border-bottom:
+        1px solid var(--charcoal);
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.67rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.15em;
+
+}
+
+
+.hiw-next-links {
+
+    border-bottom:
+        1px solid var(--charcoal);
+
+}
+
+
+.hiw-next-link {
+
+    display:
+        grid;
+
+    grid-template-columns:
+        80px
+        minmax(0, 1fr)
+        auto;
+
+    gap:
+        30px;
+
+    align-items:
+        center;
+
+    padding:
+        34px 0;
+
+    border-bottom:
+        1px solid var(--line);
+
+    transition:
+        padding var(--transition),
+        color var(--transition);
+
+}
+
+
+.hiw-next-link:last-child {
+
+    border-bottom:
+        0;
+
+}
+
+
+.hiw-next-link:hover {
+
+    padding-left:
+        14px;
+
+    color:
+        var(--deep-teal);
+
+}
+
+
+.hiw-next-index {
+
+    color:
+        var(--deep-teal);
+
+    font-size:
+        0.68rem;
+
+    font-weight:
+        700;
+
+}
+
+
+.hiw-next-label {
+
+    display:
+        block;
+
+    margin-bottom:
+        8px;
+
+    color:
+        var(--body-light);
+
+    font-size:
+        0.64rem;
+
+    font-weight:
+        700;
+
+    letter-spacing:
+        0.14em;
+
+}
+
+
+.hiw-next-link strong {
+
+    font-family:
+        "Manrope",
+        sans-serif;
+
+    font-size:
+        clamp(
+            1.8rem,
+            3vw,
+            3.4rem
+        );
+
+    font-weight:
+        500;
+
+    line-height:
+        1.1;
+
+    letter-spacing:
+        -0.04em;
+
+}
+
+
+.hiw-next-arrow {
+
+    font-size:
+        1.3rem;
+
+    transition:
+        transform var(--transition);
+
+}
+
+
+.hiw-next-link:hover
+.hiw-next-arrow {
+
+    transform:
+        translate(4px, -4px);
+
+}
+
+
+
+/* ================================================================
+   TABLET
+================================================================ */
+
+@media (max-width: 1050px) {
+
+    .hiw-hero-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            55px;
+
+    }
+
+
+    .hiw-hero-copy {
+
+        max-width:
+            650px;
+
+    }
+
+
+    .hiw-process-layout {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .hiw-process-rail {
+
+        position:
+            static;
+
+        display:
+            grid;
+
+        grid-template-columns:
+            1fr
+            1fr;
+
+        gap:
+            40px;
+
+        align-items:
+            end;
+
+    }
+
+
+    .hiw-process-rail > p {
+
+        justify-self:
+            end;
+
+        max-width:
+            300px;
+
+        margin-top:
+            0;
+
+    }
+
+
+    .hiw-rail-line {
+
+        display:
+            none;
+
+    }
+
+
+    .hiw-perspectives {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .hiw-perspective {
+
+        min-height:
+            650px;
+
+    }
+
+
+    .hiw-converge-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            45px;
+
+    }
+
+
+    .hiw-converge-copy {
+
+        max-width:
+            650px;
+
+    }
+
+
+    .hiw-payroll-grid {
+
+        grid-template-columns:
+            80px
+            1fr;
+
+    }
+
+
+    .hiw-payroll-copy {
+
+        grid-column:
+            2;
+
+        padding-top:
+            0;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   MOBILE
+================================================================ */
+
+@media (max-width: 700px) {
+
+    .hiw-hero {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .hiw-hero-top {
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .hiw-hero-grid {
+
+        margin-top:
+            45px;
+
+    }
+
+
+    .hiw-hero-heading h1 {
+
+        font-size:
+            clamp(
+                3.5rem,
+                15vw,
+                5.8rem
+            );
+
+    }
+
+
+    .hiw-process {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .hiw-process-rail {
+
+        display:
+            block;
+
+    }
+
+
+    .hiw-process-rail > p {
+
+        margin-top:
+            16px;
+
+    }
+
+
+    .hiw-step {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            35px;
+
+        padding:
+            60px 0;
+
+    }
+
+
+    .hiw-step-meta {
+
+        min-height:
+            0;
+
+        flex-direction:
+            row;
+
+        align-items:
+            center;
+
+    }
+
+
+    .hiw-step-number {
+
+        font-size:
+            2.4rem;
+
+    }
+
+
+    .hiw-step-state {
+
+        writing-mode:
+            horizontal-tb;
+
+        transform:
+            none;
+
+        align-self:
+            auto;
+
+    }
+
+
+    .hiw-detail-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .hiw-detail-grid > div {
+
+        min-height:
+            auto;
+
+        padding:
+            18px 0;
+
+    }
+
+
+    .hiw-detail-grid > div + div {
+
+        padding-left:
+            0;
+
+        border-left:
+            0;
+
+    }
+
+
+    .hiw-detail-grid p {
+
+        margin-top:
+            12px;
+
+    }
+
+
+    .hiw-image-placeholder {
+
+        min-height:
+            380px;
+
+    }
+
+
+    .hiw-connection {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .hiw-connection-center {
+
+        min-height:
+            130px;
+
+    }
+
+
+    .hiw-step-dark {
+
+        margin:
+            0 -16px;
+
+        padding:
+            60px 16px;
+
+    }
+
+
+    .hiw-perspective {
+
+        min-height:
+            620px;
+
+        padding:
+            55px 28px;
+
+    }
+
+
+    .hiw-converge {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .hiw-converge-head {
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .hiw-converge-number {
+
+        font-size:
+            2.4rem;
+
+    }
+
+
+    .hiw-converge-graphic {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            25px;
+
+        justify-items:
+            center;
+
+        margin-top:
+            70px;
+
+    }
+
+
+    .hiw-converge-line {
+
+        width:
+            100%;
+
+        justify-content:
+            center;
+
+    }
+
+
+    .hiw-converge-line:first-child {
+
+        flex-direction:
+            row;
+
+    }
+
+
+    .hiw-converge-core {
+
+        width:
+            170px;
+
+        height:
+            170px;
+
+    }
+
+
+    .hiw-payroll {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .hiw-payroll-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap:
+            32px;
+
+    }
+
+
+    .hiw-payroll-copy {
+
+        grid-column:
+            auto;
+
+    }
+
+
+    .hiw-next {
+
+        padding:
+            80px 0;
+
+    }
+
+
+    .hiw-next-head {
+
+        align-items:
+            flex-start;
+
+        flex-direction:
+            column;
+
+        gap:
+            8px;
+
+    }
+
+
+    .hiw-next-link {
+
+        grid-template-columns:
+            45px
+            minmax(0, 1fr)
+            auto;
+
+        gap:
+            14px;
+
+        padding:
+            28px 0;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   SMALL MOBILE
+================================================================ */
+
+@media (max-width: 480px) {
+
+    .hiw-hero-top {
+
+        flex-direction:
+            column;
+
+        gap:
+            12px;
+
+    }
+
+
+    .hiw-step-content h2 {
+
+        font-size:
+            2.7rem;
+
+    }
+
+
+    .hiw-perspective h2 {
+
+        font-size:
+            3rem;
+
+    }
+
+
+    .hiw-converge-title h2 {
+
+        font-size:
+            3.2rem;
+
+    }
+
+
+    .hiw-payroll-heading h2 {
+
+        font-size:
+            3rem;
+
+    }
+
+
+    .hiw-next-link strong {
+
+        font-size:
+            1.6rem;
+
+    }
+
+}
+
+
+
+/* ================================================================
+   REDUCED MOTION
+================================================================ */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hiw-scroll-link span,
+    .hiw-dark-link span,
+    .hiw-perspective-link span,
+    .hiw-next-arrow {
+
+        transition:
+            none;
+
+    }
+
+}
