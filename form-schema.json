@@ -1,0 +1,303 @@
+{
+  "candidate": [
+    {
+      "name": "full_name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "required": true,
+      "type": "email"
+    },
+    {
+      "name": "contact_number",
+      "required": true,
+      "type": "tel"
+    },
+    {
+      "name": "area",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "roles[]",
+      "required": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "roles[]",
+      "required": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "roles[]",
+      "required": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "roles[]",
+      "required": false,
+      "type": "checkbox"
+    },
+    {
+      "name": "experience_years",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "languages",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "experience_summary",
+      "required": true,
+      "type": "textarea"
+    },
+    {
+      "name": "preferred_arrangement",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "preferred_schedule",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "availability",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "travel",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "drivers_license",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "own_vehicle",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "first_aid",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "references_available",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "additional_information",
+      "required": false,
+      "type": "textarea"
+    },
+    {
+      "name": "privacy_consent",
+      "required": true,
+      "type": "checkbox"
+    }
+  ],
+  "contact": [
+    {
+      "name": "full_name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "required": true,
+      "type": "email"
+    },
+    {
+      "name": "contact_number",
+      "required": false,
+      "type": "tel"
+    },
+    {
+      "name": "enquiry_type",
+      "required": true,
+      "type": "select"
+    },
+    {
+      "name": "subject",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "message",
+      "required": true,
+      "type": "textarea"
+    },
+    {
+      "name": "privacy_consent",
+      "required": true,
+      "type": "checkbox"
+    }
+  ],
+  "client": [
+    {
+      "name": "full_name",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "email",
+      "required": true,
+      "type": "email"
+    },
+    {
+      "name": "contact_number",
+      "required": true,
+      "type": "tel"
+    },
+    {
+      "name": "residential_area",
+      "required": true,
+      "type": "text"
+    },
+    {
+      "name": "alternative_contact_name",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "alternative_contact_number",
+      "required": false,
+      "type": "tel"
+    },
+    {
+      "name": "number_of_children",
+      "required": false,
+      "type": "number"
+    },
+    {
+      "name": "school",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "household_lifestyle",
+      "required": false,
+      "type": "textarea"
+    },
+    {
+      "name": "service_required",
+      "required": true,
+      "type": "select"
+    },
+    {
+      "name": "language_requirements",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "literacy_required",
+      "required": false,
+      "type": "radio"
+    },
+    {
+      "name": "literacy_required",
+      "required": false,
+      "type": "radio"
+    },
+    {
+      "name": "literacy_required",
+      "required": false,
+      "type": "radio"
+    },
+    {
+      "name": "candidate_duties",
+      "required": true,
+      "type": "textarea"
+    },
+    {
+      "name": "weekday_hours",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "weekend_hours",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "living_arrangement",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "preferred_start_date",
+      "required": false,
+      "type": "date"
+    },
+    {
+      "name": "salary_live_in",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "salary_live_out",
+      "required": false,
+      "type": "text"
+    },
+    {
+      "name": "payroll_arrangement",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "drivers_license",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "vehicle_arrangement",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "meal_preparation",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "first_aid_required",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "holiday_travel",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "pets_groceries_errands",
+      "required": false,
+      "type": "textarea"
+    },
+    {
+      "name": "health_considerations",
+      "required": false,
+      "type": "select"
+    },
+    {
+      "name": "additional_notes",
+      "required": false,
+      "type": "textarea"
+    },
+    {
+      "name": "privacy_consent",
+      "required": true,
+      "type": "checkbox"
+    }
+  ]
+}
