@@ -44,3 +44,14 @@ The browser checks cover all 12 pages at 390, 768, 1366 and 1920 pixels wide, as
 Original source checkpoint: C:/Users/Alto Studio/Documents/Codex/TCF-checkpoint-1794997869438
 
 Existing user edits to index.html, services.html and the nannies image were retained. No Git commit, push or deployment was performed.
+
+## Consent foundation and client preview — 18 November 2026
+
+- consent.js now owns Cookie settings. Accept all, Reject optional, category preferences, 180-day saved choices, expiry, withdrawal cleanup/reload and supported browser privacy signals are implemented. With the service registry empty, no banner appears and unavailable categories are disabled.
+- Add an optional service only through TCF_OPTIONAL_SERVICES before consent.js loads, declaring its category, HTTPS script URL, cookie names/path/domain and storage keys. Do not also embed its script directly. Validate the actual vendor's storage cleanup and consent requirements when adding it. The generic foundation alone is not certification for a future vendor integration.
+- The consent tests used a local dummy script, not a real tracker. Default-off, reject/persist, accept, withdraw, expiry, keyboard focus and privacy-signal behaviour passed.
+- build-preview.cjs generates _preview with noindex metadata on every page, crawler exclusion, no PHP/configuration files and disabled form submission. Production files retain the real domain's metadata. The GitHub-hosted source also suppresses PHP requests by hostname.
+- .github/workflows/preview.yml publishes this static package on pushes to main after GitHub Pages Source is set to GitHub Actions. The preview remains public to anyone with the URL; noindex is not password protection.
+- Review URL: https://gm012.github.io/the-chore-facilitator/
+- This session could read the existing preview but did not have GitHub publishing credentials. The changes have NOT been published. Once signed in, set Pages Source to GitHub Actions, push main, wait for the Client review preview workflow, and verify the published cookie settings and preview form notice before sending the URL to the client.
+- No client message was sent. No form submission was delivered externally.

@@ -15,21 +15,6 @@
   main?.focus({preventScroll:true});
   window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
  }));
- // No optional trackers are installed. Do not imply that there are choices to consent to.
- // If that changes, gate their requests before loading them and replace this disclosure
- // with tested Accept/Reject/Manage and withdrawal controls before deployment.
- let cookieDialog;
- document.querySelectorAll('[data-cookie-settings]').forEach(button=>button.addEventListener('click',()=>{
-  if(!cookieDialog){
-   cookieDialog=document.createElement('dialog');
-   cookieDialog.className='cookie-dialog';
-   cookieDialog.setAttribute('aria-labelledby','cookie-dialog-title');
-   cookieDialog.innerHTML='<h2 id="cookie-dialog-title">Cookie settings</h2><p><strong>No optional tracking is active.</strong> This website does not currently use analytics or advertising cookies.</p><p>If you use an online form, a temporary essential session cookie helps protect your submission. It is not used for advertising.</p><p>Fonts load from Google Fonts, which receives your connection information. Read our <a href="cookies.html">cookie policy</a> and <a href="privacy.html">privacy policy</a>.</p><button type="button" autofocus>Close</button>';
-   document.body.append(cookieDialog);
-   cookieDialog.querySelector('button').addEventListener('click',()=>cookieDialog.close());
-  }
-  cookieDialog.showModal();
- }));
  document.querySelectorAll('[data-enquiry-form]').forEach(async form=>{
   const submit=form.querySelector('button[aria-disabled]');
   const status=form.querySelector('.form-status');
@@ -65,6 +50,11 @@
    }catch(error){report(error.name==='AbortError'?'The request timed out and delivery could not be confirmed. Your details are still here. Please contact admin@thechorefacilitator.co.za before sending again.':error.message||'Sending failed. Your details are still here.');}
    finally{clearTimeout(timer);submit.disabled=!ready;form.removeAttribute('aria-busy');status.focus({preventScroll:true});}
   });
+  if(location.hostname.endsWith('.github.io')||document.documentElement.dataset.siteMode==='preview'){
+   report('Client preview: this form is available to review, but submissions and email delivery are disabled until the website launches.');
+   const note=form.querySelector('[class$="submit"] p, .client-submit-area p');if(note)note.textContent='Client preview — email submission is not active.';
+   return;
+  }
   try{await refreshToken(); const note=form.querySelector('[class$="submit"] p, .client-submit-area p'); if(note)note.textContent='Your information will be used to respond to your enquiry.';}
   catch{report('Online submission is currently unavailable. Please email admin@thechorefacilitator.co.za.');}
  });
