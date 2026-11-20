@@ -2385,3 +2385,6 @@
     }
 
 }
+/* Candidate photo replaces the draft image placeholder. */
+.apply-candidate-image { position: relative; z-index: 2; margin: 24px 0; flex: 1; min-height: 350px; overflow: hidden; }
+.apply-candidate-image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: center bottom; }
