@@ -2386,5 +2386,10 @@
 
 }
 /* Candidate photo replaces the draft image placeholder. */
-.apply-candidate-image { position: relative; z-index: 2; margin: 24px 0; flex: 1; min-height: 350px; overflow: hidden; }
+.apply-candidate-image { position: absolute; inset: 0; z-index: 0; margin: 0; overflow: hidden; }
 .apply-candidate-image img { position: absolute; inset: 0; display: block; width: 100%; height: 100%; object-fit: cover; object-position: center bottom; }
+
+/* Full-card photo with readable overlay labels. */
+.apply-hero-visual::before, .apply-hero-visual::after { content: none; }
+.apply-hero-visual .apply-visual-bottom { margin-top: auto; }
+.apply-hero-visual .apply-visual-bottom span { background: var(--warm-white); }
