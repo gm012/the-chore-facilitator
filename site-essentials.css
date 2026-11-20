@@ -34,3 +34,8 @@ button:disabled { cursor:not-allowed; }
  *,*::before,*::after { animation-duration:0.01ms !important; animation-iteration-count:1 !important; transition-duration:0.01ms !important; }
  .reveal { opacity:1 !important; transform:none !important; }
 }
+
+/* Stable vector arrows: no platform-specific emoji/font substitution. */
+.site-arrow { display:inline-block; width:1em; height:1em; flex-shrink:0; vertical-align:-0.125em; }
+/* Preserve the established card layout after removing decorative letters. */
+[data-card-spacer] { min-height:1em; min-width:1ch; }

@@ -2,4 +2,8 @@ User-agent: *
 Allow: /
 Disallow: /forms.php
 Disallow: /form-schema.json
+Disallow: /admin/
+Disallow: /api/
+Disallow: /database/
+Disallow: /tools/
 Sitemap: https://thechorefacilitator.co.za/sitemap.xml

@@ -1,1 +1,8 @@
 _preview/
+server-config.local.php
+*.env
+*.env.*
+private-config.php
+storage/
+*.sql.gz
+*.log

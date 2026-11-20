@@ -44,9 +44,9 @@
      if(response.status===403){await refreshToken();throw new Error('Your session expired. Your details are still here; please submit again.');}
      throw new Error(result.message||'We could not send your message. Your details are still here; please try again or email admin@thechorefacilitator.co.za.');
     }
-    form.reset(); report('Your submission has been accepted for sending. Thank you. If you do not hear back, please email admin@thechorefacilitator.co.za.');
+    form.reset(); report('Your information has been received. Thank you. If you do not hear back, please email admin@thechorefacilitator.co.za.');
     ready=false;
-    try{await refreshToken();}catch{report('Your submission was accepted for sending. Please refresh the page before sending another message.');}
+    try{await refreshToken();}catch{report('Your information has been received. Please refresh the page before sending another message.');}
    }catch(error){report(error.name==='AbortError'?'The request timed out and delivery could not be confirmed. Your details are still here. Please contact admin@thechorefacilitator.co.za before sending again.':error.message||'Sending failed. Your details are still here.');}
    finally{clearTimeout(timer);submit.disabled=!ready;form.removeAttribute('aria-busy');status.focus({preventScroll:true});}
   });
