@@ -39,3 +39,25 @@ button:disabled { cursor:not-allowed; }
 .site-arrow { display:inline-block; width:1em; height:1em; flex-shrink:0; vertical-align:-0.125em; }
 /* Preserve the established card layout after removing decorative letters. */
 [data-card-spacer] { min-height:1em; min-width:1ch; }
+
+/* Matching dimensions for the paired homepage and closing-section buttons. */
+.home-hero-actions > .btn,
+.svc-close-actions > .btn {
+ width:240px;
+ max-width:100%;
+ min-height:54px;
+ text-align:center;
+}
+.bridge-center .bridge-logo {
+ display:block;
+ width:140px;
+ max-width:calc(100% - 24px);
+ height:auto;
+ object-fit:contain;
+ position:relative;
+ z-index:1;
+}
+@media (max-width:700px) {
+ .home-hero-actions > .btn,
+ .svc-close-actions > .btn { width:100%; }
+}
