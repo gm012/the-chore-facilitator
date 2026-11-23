@@ -2358,13 +2358,11 @@
 
 
     .apply-visual-bottom {
-
-        flex-direction:
-            column;
-
-        align-items:
-            flex-start;
-
+        display: grid;
+        grid-template-columns: 1fr;
+        width: max-content;
+        max-width: 100%;
+        text-align: center;
     }
 
 }
