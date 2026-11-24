@@ -88,18 +88,11 @@
     max-width:
         980px;
 
-    font-size:
-        clamp(
-            4rem,
-            8vw,
-            8.3rem
-        );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-    line-height:
-        0.93;
+    line-height: 1.13;
 
-    letter-spacing:
-        -0.07em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -132,8 +125,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -144,8 +136,7 @@
     line-height:
         1.5 !important;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -296,8 +287,7 @@
     overflow:
         hidden;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
 }
 
@@ -377,15 +367,9 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5.5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
     font-weight:
         500;
@@ -393,8 +377,7 @@
     line-height:
         1;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -518,8 +501,7 @@
 
 .svc-placeholder > div > span {
 
-    color:
-        rgba(255, 255, 255, 0.42);
+    color: rgba(255,255,255,.95);
 
     font-size:
         0.65rem;
@@ -545,8 +527,7 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -558,8 +539,7 @@
     line-height:
         1.2;
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -599,12 +579,7 @@
     margin-top:
         24px;
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5.3rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -618,8 +593,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -631,8 +605,7 @@
     line-height:
         1.5;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -746,8 +719,7 @@
 
 .svc-interlude-grid > span {
 
-    color:
-        rgba(255, 255, 255, 0.55);
+    color: rgba(255,255,255,.95);
 
     font-size:
         0.68rem;
@@ -770,15 +742,9 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
-    font-size:
-        clamp(
-            2.7rem,
-            5vw,
-            5.8rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
     font-weight:
         500;
@@ -786,8 +752,7 @@
     line-height:
         1.06;
 
-    letter-spacing:
-        -0.055em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -920,8 +885,7 @@
             2.5rem
         );
 
-    letter-spacing:
-        -0.035em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -947,8 +911,7 @@
     padding:
         115px 0;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -1007,8 +970,7 @@
     margin-top:
         28px;
 
-    color:
-        rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
     font-size:
         1.04rem;
@@ -1165,12 +1127,7 @@
 
     .svc-hero-heading h1 {
 
-        font-size:
-            clamp(
-                3.5rem,
-                15vw,
-                5.8rem
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 
@@ -1194,12 +1151,7 @@
 
     .svc-copy h2 {
 
-        font-size:
-            clamp(
-                2.8rem,
-                11vw,
-                4.5rem
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 

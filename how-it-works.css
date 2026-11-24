@@ -88,18 +88,11 @@
     max-width:
         950px;
 
-    font-size:
-        clamp(
-            4rem,
-            8vw,
-            8.4rem
-        );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-    line-height:
-        0.93;
+    line-height: 1.13;
 
-    letter-spacing:
-        -0.07em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -140,8 +133,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -152,8 +144,7 @@
     line-height:
         1.5;
 
-    letter-spacing:
-        -0.02em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -286,8 +277,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.25rem;
@@ -295,8 +285,7 @@
     line-height:
         1.45;
 
-    letter-spacing:
-        -0.02em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -413,8 +402,7 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         3rem;
@@ -425,8 +413,7 @@
     line-height:
         1;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -473,12 +460,7 @@
     max-width:
         720px;
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5.4rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -495,8 +477,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -508,8 +489,7 @@
     line-height:
         1.5;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -741,8 +721,7 @@
     display:
         block;
 
-    color:
-        rgba(255, 255, 255, 0.45);
+    color: rgba(255,255,255,.95);
 
     font-size:
         0.66rem;
@@ -768,8 +747,7 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -781,8 +759,7 @@
     line-height:
         1.15;
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -854,8 +831,7 @@
         block;
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.5rem;
@@ -950,8 +926,7 @@
     padding:
         80px 45px;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -972,8 +947,7 @@
 
 .hiw-step-dark .hiw-step-state {
 
-    color:
-        rgba(255, 255, 255, 0.42);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -997,8 +971,7 @@
 .hiw-step-dark
 .hiw-step-content > p:not(.hiw-step-lead) {
 
-    color:
-        rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -1145,8 +1118,7 @@
 .hiw-perspective-client
 .hiw-perspective-top {
 
-    color:
-        rgba(255, 255, 255, 0.55);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -1208,12 +1180,7 @@
     max-width:
         600px;
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5.5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1272,8 +1239,7 @@
 .hiw-perspective-client
 .hiw-mini-process {
 
-    border-color:
-        rgba(255, 255, 255, 0.3);
+    border-color: rgba(255,255,255,.95);
 
 }
 
@@ -1281,8 +1247,7 @@
 .hiw-perspective-client
 .hiw-mini-process li {
 
-    border-color:
-        rgba(255, 255, 255, 0.2);
+    border-color: rgba(255,255,255,.95);
 
 }
 
@@ -1348,8 +1313,7 @@
 .hiw-perspective-client
 .hiw-mini-process p {
 
-    color:
-        rgba(255, 255, 255, 0.83);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -1401,8 +1365,7 @@
     color:
         var(--white);
 
-    border-color:
-        rgba(255, 255, 255, 0.35);
+    border-color: rgba(255,255,255,.95);
 
 }
 
@@ -1474,8 +1437,7 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         3rem;
@@ -1486,8 +1448,7 @@
     line-height:
         1;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1522,12 +1483,7 @@
     max-width:
         850px;
 
-    font-size:
-        clamp(
-            3.5rem,
-            6vw,
-            6.8rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1561,8 +1517,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -1676,8 +1631,7 @@
     border-radius:
         50%;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -1763,12 +1717,7 @@
     margin-top:
         22px;
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1799,8 +1748,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -1977,8 +1925,7 @@
 .hiw-next-link strong {
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -1993,8 +1940,7 @@
     line-height:
         1.1;
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -2186,12 +2132,7 @@
 
     .hiw-hero-heading h1 {
 
-        font-size:
-            clamp(
-                3.5rem,
-                15vw,
-                5.8rem
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 

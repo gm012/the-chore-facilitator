@@ -99,18 +99,11 @@
     max-width:
         900px;
 
-    font-size:
-        clamp(
-            4rem,
-            7.7vw,
-            8rem
-        );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-    line-height:
-        0.93;
+    line-height: 1.13;
 
-    letter-spacing:
-        -0.07em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -146,8 +139,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -155,8 +147,7 @@
     line-height:
         1.5 !important;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -393,8 +384,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -406,8 +396,7 @@
     line-height:
         1.18;
 
-    letter-spacing:
-        -0.045em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -500,14 +489,12 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         3rem;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -548,8 +535,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.25rem;
@@ -570,8 +556,7 @@
     padding:
         120px 0;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -602,13 +587,7 @@
             0.24
         );
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.42
-        );
+    color: rgba(255,255,255,.95);
 
     font-size:
         0.67rem;
@@ -667,14 +646,12 @@
         var(--teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         2.1rem;
 
-    letter-spacing:
-        -0.05em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -711,8 +688,7 @@
             2.5rem
         );
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -722,13 +698,7 @@
     max-width:
         480px;
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.63
-        );
+    color: rgba(255,255,255,.95);
 
     line-height:
         1.75;
@@ -795,12 +765,7 @@
     margin-top:
         22px;
 
-    font-size:
-        clamp(
-            2.8rem,
-            4vw,
-            4.5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -921,8 +886,7 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         2.2rem;
@@ -930,8 +894,7 @@
     line-height:
         1;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -958,15 +921,9 @@
     margin-top:
         8px;
 
-    font-size:
-        clamp(
-            2.3rem,
-            3.8vw,
-            4rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
-    letter-spacing:
-        -0.045em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1187,8 +1144,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -1212,8 +1168,7 @@
         var(--deep-teal);
 
     font-family:
-        "DM Sans",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         0.62rem;
@@ -1319,8 +1274,7 @@
         block;
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.55rem;
@@ -1328,8 +1282,7 @@
     font-weight:
         500;
 
-    letter-spacing:
-        -0.03em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1397,8 +1350,7 @@
     padding:
         40px;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -1412,8 +1364,7 @@
         var(--teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         3rem;
@@ -1470,13 +1421,7 @@
     margin-top:
         18px;
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.63
-        );
+    color: rgba(255,255,255,.95);
 
     line-height:
         1.75;
@@ -1939,8 +1884,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         clamp(
@@ -1952,8 +1896,7 @@
     font-weight:
         500;
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -2112,12 +2055,7 @@
 
     .apply-hero-copy h1 {
 
-        font-size:
-            clamp(
-                3.5rem,
-                15vw,
-                5.8rem
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 

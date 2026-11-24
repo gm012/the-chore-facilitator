@@ -88,18 +88,11 @@
     max-width:
         900px;
 
-    font-size:
-        clamp(
-            5rem,
-            10vw,
-            10rem
-        );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-    line-height:
-        0.88;
+    line-height: 1.13;
 
-    letter-spacing:
-        -0.075em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -140,8 +133,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.45rem;
@@ -149,8 +141,7 @@
     line-height:
         1.5 !important;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -295,8 +286,7 @@
 
 .contact-route-dark {
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -318,14 +308,12 @@
 .contact-route-number {
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         2.6rem;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -399,12 +387,7 @@
     max-width:
         560px;
 
-    font-size:
-        clamp(
-            2.8rem,
-            4.5vw,
-            5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -433,13 +416,7 @@
 
 .contact-route-dark p {
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.65
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -556,12 +533,7 @@
     margin-top:
         22px;
 
-    font-size:
-        clamp(
-            2.8rem,
-            4vw,
-            4.5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -588,8 +560,7 @@
     padding:
         25px;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -619,13 +590,7 @@
     margin-top:
         12px;
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.64
-        );
+    color: rgba(255,255,255,.95);
 
     font-size:
         0.76rem;
@@ -690,8 +655,7 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         2.2rem;
@@ -699,8 +663,7 @@
     line-height:
         1;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -727,15 +690,9 @@
     margin-top:
         8px;
 
-    font-size:
-        clamp(
-            2.3rem,
-            3.8vw,
-            4rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
-    letter-spacing:
-        -0.045em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1030,8 +987,7 @@
     border:
         0;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -1175,8 +1131,7 @@
             2.6rem
         );
 
-    letter-spacing:
-        -0.04em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1202,8 +1157,7 @@
     padding:
         120px 0;
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -1263,12 +1217,7 @@
     color:
         var(--white);
 
-    font-size:
-        clamp(
-            3.5rem,
-            6vw,
-            6.5rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1353,8 +1302,7 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.25rem;
@@ -1521,12 +1469,7 @@
 
     .contact-hero h1 {
 
-        font-size:
-            clamp(
-                4rem,
-                20vw,
-                7rem
-            );
+        font-size: clamp(2.5rem,4.8vw,4.6rem);
 
     }
 

@@ -14,7 +14,7 @@
 
 ================================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
 
 /* ================================================================
 
@@ -23,32 +23,34 @@
 ================================================================ */
 
 :root {
+ --font-family: "Lato", "Segoe UI", Arial, sans-serif;
+ --brand-blue:#0070c0; --brand-sky:#86c5ff; --brand-strong:#0070c0; --accent-yellow:#ffa62b;
 
     --white: #ffffff;
 
-    --warm-white: #f7f5ef;
+    --warm-white: #ffffff;
 
-    --charcoal: #17191b;
+    --charcoal: #263238;
 
-    --charcoal-soft: #25282a;
+    --charcoal-soft: #34464c;
 
-    --body: #53585b;
+    --body: #4b5b61;
 
-    --body-light: #7a7e80;
+    --body-light: #5c6c72;
 
-    --teal: #43bca9;
+    --teal: #86c5ff;
 
-    --teal-light: #dff3ef;
+    --teal-light: #eef6ff;
 
-    --deep-teal: #176c68;
+    --deep-teal: #0070c0;
 
-    --deep-teal-dark: #10504d;
+    --deep-teal-dark: #2e5aa7;
 
-    --muted-blue: #25749a;
+    --muted-blue: #0070c0;
 
-    --line: rgba(23, 25, 27, 0.12);
+    --line: rgba(46,90,167,.16);
 
-    --line-strong: rgba(23, 25, 27, 0.22);
+    --line-strong: rgba(46,90,167,.32);
 
     --container: 1280px;
 
@@ -96,7 +98,7 @@ body {
 
     overflow-x: hidden;
 
-    font-family: "DM Sans", sans-serif;
+    font-family: var(--font-family);
 
     background: var(--white);
 
@@ -178,7 +180,7 @@ button {
 
     padding: 12px 18px;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -238,7 +240,7 @@ button {
 
 .section-label.light {
 
-    color: rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -250,7 +252,7 @@ h3,
 
 h4 {
 
-    font-family: "Manrope", sans-serif;
+    font-family: var(--font-family);
 
     font-weight: 600;
 
@@ -260,17 +262,9 @@ h4 {
 
 h2 {
 
-    font-size: clamp(
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
-        2.6rem,
-
-        5vw,
-
-        5rem
-
-    );
-
-    letter-spacing: -0.05em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -330,7 +324,7 @@ p {
 
 .btn-primary {
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -354,7 +348,7 @@ p {
 
 .btn-secondary:hover {
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -376,7 +370,7 @@ p {
 
 .btn-outline-light {
 
-    border-color: rgba(255, 255, 255, 0.65);
+    border-color: rgba(255,255,255,.95);
 
     color: var(--white);
 
@@ -588,7 +582,7 @@ p {
 
     padding: 13px 20px;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white) !important;
 
@@ -668,17 +662,9 @@ p {
 
     max-width: 850px;
 
-    font-size: clamp(
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-        4rem,
-
-        8vw,
-
-        8.2rem
-
-    );
-
-    letter-spacing: -0.065em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -728,7 +714,7 @@ p {
 
     padding: 48px;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -762,7 +748,7 @@ p {
 
     margin-bottom: 72px;
 
-    color: rgba(255, 255, 255, 0.32);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.75rem;
 
@@ -798,7 +784,7 @@ p {
 
     );
 
-    letter-spacing: -0.045em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -808,7 +794,7 @@ p {
 
     margin-top: 26px;
 
-    color: rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
     line-height: 1.8;
 
@@ -890,17 +876,9 @@ p {
 
 .page-hero h1 {
 
-    font-size: clamp(
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-        4rem,
-
-        7vw,
-
-        7.3rem
-
-    );
-
-    letter-spacing: -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -946,15 +924,7 @@ p {
 
     margin-bottom: 30px;
 
-    font-size: clamp(
-
-        2.2rem,
-
-        4vw,
-
-        4rem
-
-    );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1252,7 +1222,7 @@ p {
 
     width: 100%;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
 }
 
@@ -1270,7 +1240,7 @@ p {
 
     overflow: hidden;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     border-right:
 
@@ -1504,7 +1474,7 @@ p {
 
     color: var(--white);
 
-    font-family: "Manrope", sans-serif;
+    font-family: var(--font-family);
 
     font-size: clamp(
 
@@ -1520,7 +1490,7 @@ p {
 
     line-height: 1.08;
 
-    letter-spacing: -0.035em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1542,7 +1512,7 @@ p {
 
     align-self: start;
 
-    color: rgba(255, 255, 255, 0.88);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.92rem;
 
@@ -1734,7 +1704,7 @@ p {
 
 .pathway-client {
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -1800,15 +1770,7 @@ p {
 
     max-width: 620px;
 
-    font-size: clamp(
-
-        3rem,
-
-        5vw,
-
-        5.5rem
-
-    );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1836,7 +1798,7 @@ p {
 
 .pathway-client p {
 
-    color: rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -2090,15 +2052,7 @@ p {
 
     color: var(--white);
 
-    font-size: clamp(
-
-        3.4rem,
-
-        7vw,
-
-        7rem
-
-    );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
 }
 
@@ -2108,7 +2062,7 @@ p {
 
     margin: 30px auto 0;
 
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(255,255,255,.95);
 
     font-size: 1.1rem;
 
@@ -2332,7 +2286,7 @@ p {
 
     padding: 80px 0 30px;
 
-    background: #101214;
+    background: #edf7fd;
 
     color: var(--white);
 
@@ -2368,7 +2322,7 @@ p {
 
     margin-bottom: 20px;
 
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.7rem;
 
@@ -2384,7 +2338,7 @@ p {
 
     margin-top: 10px;
 
-    color: rgba(255, 255, 255, 0.68);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.9rem;
 
@@ -2416,7 +2370,7 @@ p {
 
         1px solid rgba(255, 255, 255, 0.13);
 
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.75rem;
 
@@ -2460,7 +2414,7 @@ p {
 
     gap: 24px;
 
-    background: var(--charcoal);
+    background: var(--brand-strong);
 
     color: var(--white);
 
@@ -2478,7 +2432,7 @@ p {
 
 .cookie-banner p {
 
-    color: rgba(255, 255, 255, 0.72);
+    color: rgba(255,255,255,.95);
 
     font-size: 0.82rem;
 
@@ -2706,25 +2660,11 @@ p {
 
         26px;
 
-    font-size:
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-        clamp(
+    line-height: 1.13;
 
-            4rem,
-
-            8vw,
-
-            8.4rem
-
-        );
-
-    line-height:
-
-        .94;
-
-    letter-spacing:
-
-        -.07em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -2814,9 +2754,7 @@ p {
 
         120px;
 
-    background:
-
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
 
@@ -2858,19 +2796,7 @@ p {
 
         );
 
-    color:
-
-        rgba(
-
-            255,
-
-            255,
-
-            255,
-
-            .45
-
-        );
+    color: rgba(255,255,255,.95);
 
     font-size:
 
@@ -2896,37 +2822,13 @@ p {
 
 .about-manifesto-copy p {
 
-    color:
-
-        rgba(
-
-            255,
-
-            255,
-
-            255,
-
-            .92
-
-        );
+    color: rgba(255,255,255,.95);
 
     font-family:
 
-        "Manrope",
+        var(--font-family);
 
-        sans-serif;
-
-    font-size:
-
-        clamp(
-
-            2.6rem,
-
-            5.3vw,
-
-            6.3rem
-
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
     font-weight:
 
@@ -2936,9 +2838,7 @@ p {
 
         1.07;
 
-    letter-spacing:
-
-        -.055em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -3014,17 +2914,7 @@ p {
 
         24px;
 
-    font-size:
-
-        clamp(
-
-            3rem,
-
-            5vw,
-
-            5.5rem
-
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -3062,9 +2952,7 @@ p {
 
     font-family:
 
-        "Manrope",
-
-        sans-serif;
+        var(--font-family);
 
     font-size:
 
@@ -3082,9 +2970,7 @@ p {
 
         1.5;
 
-    letter-spacing:
-
-        -.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -3220,17 +3106,7 @@ p {
 
         22px;
 
-    font-size:
-
-        clamp(
-
-            3rem,
-
-            5vw,
-
-            5.3rem
-
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -3312,9 +3188,7 @@ p {
 
         );
 
-    letter-spacing:
-
-        -.035em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -3414,9 +3288,7 @@ p {
 
 .bridge-client {
 
-    background:
-
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
 
@@ -3486,21 +3358,9 @@ p {
 
         450px;
 
-    font-size:
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
-        clamp(
-
-            2.5rem,
-
-            4vw,
-
-            4.8rem
-
-        );
-
-    letter-spacing:
-
-        -.055em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -3524,19 +3384,7 @@ p {
 
 .bridge-content p {
 
-    color:
-
-        rgba(
-
-            255,
-
-            255,
-
-            255,
-
-            .68
-
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -4048,9 +3896,7 @@ p {
 
     font-family:
 
-        "Manrope",
-
-        sans-serif;
+        var(--font-family);
 
     font-size:
 
@@ -4068,9 +3914,7 @@ p {
 
         500;
 
-    letter-spacing:
-
-        -.03em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -4254,17 +4098,7 @@ p {
 
     .about-hero-main h1 {
 
-        font-size:
-
-            clamp(
-
-                3.5rem,
-
-                15vw,
-
-                5.8rem
-
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 
@@ -4426,9 +4260,9 @@ p {
 .services-hero-main h1 {
     max-width: 950px;
     margin-top: 26px;
-    font-size: clamp(4rem, 8vw, 8.2rem);
-    line-height: .94;
-    letter-spacing: -.07em;
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
+    line-height: 1.13;
+    letter-spacing: -0.02em;
 }
 
 .services-hero-main h1 span {
@@ -4505,7 +4339,7 @@ p {
     position: relative;
     min-height: 760px;
     overflow: hidden;
-    background: var(--charcoal);
+    background: var(--brand-strong);
 }
 
 .service-feature-image img {
@@ -4539,10 +4373,10 @@ p {
     left: 35px;
     bottom: 30px;
     color: var(--white);
-    font-family: "Manrope", sans-serif;
-    font-size: clamp(3rem, 5vw, 5.5rem);
+    font-family: var(--font-family);
+    font-size: clamp(2rem,3.5vw,3.4rem);
     font-weight: 500;
-    letter-spacing: -.06em;
+    letter-spacing: -0.02em;
 }
 
 /* ================================================================
@@ -4563,16 +4397,16 @@ p {
 
 .service-feature-copy h2 {
     margin-top: 25px;
-    font-size: clamp(3rem, 5vw, 5.4rem);
+    font-size: clamp(2rem,3.5vw,3.4rem);
 }
 
 .service-feature-lead {
     margin-top: 40px;
     color: var(--charcoal);
-    font-family: "Manrope", sans-serif;
+    font-family: var(--font-family);
     font-size: clamp(1.35rem, 1.9vw, 1.85rem);
     line-height: 1.5;
-    letter-spacing: -.025em;
+    letter-spacing: -0.02em;
 }
 
 .service-feature-copy > p:not(.service-feature-lead) {
@@ -4640,7 +4474,7 @@ p {
 }
 
 .services-interlude-grid span {
-    color: rgba(255, 255, 255, .58);
+    color: rgba(255,255,255,.95);
     font-size: .7rem;
     font-weight: 700;
     letter-spacing: .16em;
@@ -4649,11 +4483,11 @@ p {
 .services-interlude-grid p {
     max-width: 850px;
     color: var(--white);
-    font-family: "Manrope", sans-serif;
-    font-size: clamp(2.5rem, 5vw, 5.8rem);
+    font-family: var(--font-family);
+    font-size: clamp(2rem,3.5vw,3.4rem);
     font-weight: 500;
     line-height: 1.06;
-    letter-spacing: -.055em;
+    letter-spacing: -0.02em;
 }
 
 /* ================================================================
@@ -4697,7 +4531,7 @@ p {
 
 .services-flex-row h3 {
     font-size: clamp(1.5rem, 2vw, 2.2rem);
-    letter-spacing: -.03em;
+    letter-spacing: -0.02em;
 }
 
 .services-flex-row p {
@@ -4712,7 +4546,7 @@ p {
 
 .services-close {
     padding: 115px 0;
-    background: var(--charcoal);
+    background: var(--brand-strong);
     color: var(--white);
 }
 
@@ -4737,7 +4571,7 @@ p {
 .services-close p {
     max-width: 600px;
     margin-top: 28px;
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255,255,255,.95);
     font-size: 1.05rem;
     line-height: 1.8;
 }
@@ -4805,7 +4639,7 @@ p {
     }
 
     .services-hero-main h1 {
-        font-size: clamp(3.5rem, 15vw, 5.8rem);
+        font-size: clamp(2rem,3.5vw,3.4rem);
     }
 
     .service-feature {
@@ -4822,7 +4656,7 @@ p {
     }
 
     .service-feature-copy h2 {
-        font-size: clamp(2.8rem, 11vw, 4.5rem);
+        font-size: clamp(2rem,3.5vw,3.4rem);
     }
 
     .services-interlude {
@@ -4922,7 +4756,7 @@ p {
 
         height: 1px;
 
-        background: var(--charcoal);
+        background: var(--brand-strong);
 
     }
 
@@ -4996,15 +4830,7 @@ p {
 
     .hero h1 {
 
-        font-size: clamp(
-
-            3.5rem,
-
-            15vw,
-
-            6rem
-
-        );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 
@@ -5024,15 +4850,7 @@ p {
 
     .page-hero h1 {
 
-        font-size: clamp(
-
-            3.4rem,
-
-            12vw,
-
-            5.5rem
-
-        );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 
@@ -5343,3 +5161,43 @@ p {
     }
 
 }
+/* Draft 02: visual skin only; Draft 01 geometry and breakpoints retained. */
+body { line-height:1.7; }
+h1,h2,h3,h4 { font-weight:700; }
+.btn,.nav-cta { border-radius:6px; letter-spacing:.01em; }
+.btn-primary,.nav-cta { background:var(--brand-blue); }
+.btn-primary:hover,.nav-cta:hover { background:#005b9c; }
+.text-link { letter-spacing:.01em; }
+.footer { background:#edf7fd; color:var(--charcoal); }
+.footer .footer-label { color:var(--deep-teal); }
+.footer .footer-grid a,.footer .footer-bottom,.footer .footer-brand p { color:var(--body); }
+.footer .footer-bottom { border-color:var(--line); }
+.image-pending { background:#eef6ff; color:var(--deep-teal); text-align:center; }
+.image-service-card > .image-pending { position:absolute; inset:0; padding:30px; }
+.image-service-card > .image-pending > div { padding-top:30px; }
+.image-pending strong { font-size:1.4rem; }
+.image-pending small { display:block; margin-top:12px; }
+.svc-image.image-pending { display:grid; place-content:center; }
+.image-service-card:has(> .image-pending) .image-service-content :is(h3,p,a,span) { color:var(--charcoal); }
+.image-service-card:has(> .image-pending) .image-service-overlay { background:none; }
+main :is(input,select,textarea):focus-visible { outline:3px solid var(--brand-blue); outline-offset:3px; }
+main select option { background:white; color:var(--charcoal); }
+input[type=checkbox],input[type=radio] { accent-color:var(--deep-teal); }
+.home-hero-index { color:var(--deep-teal); }
+.apply-form-note { background:#fff8de; border-color:var(--accent-yellow); }
+/* Pale labels on the established blue panels retain readable contrast. */
+:is(.bridge-client,.home-model-center,.home-pathway-client,.home-placement,.home-close,.home-statement,.about-manifesto,.apply-path,.apply-documents,.client-hero-panel,.client-health-panel,.client-after,.contact-route-dark,.contact-intro-note,.contact-close,.hiw-step-dark,.hiw-perspective-client,.placement-node-chore,.placement-route-standard,.placement-flow,.svc-close,.services-close) { --teal:#e8f4ff; }
+.client-health-panel select { color:white; }
+
+.image-service-number { color:#e8f4ff; }
+.image-service-card:has(> .image-pending), .svc-image.image-pending { background:#eef6ff; }
+.svc-image.image-pending::after { content:none; }
+
+/* Approved blue with restrained Mediterranean palette accents. */
+:root { --sea-breeze:#86c5ff; --amalfi-blue:#2e5aa7; --cream-accent:#f8e6a0; }
+.home-model-candidate, .bridge-candidate, .placement-node-candidate { background:var(--teal-light); }
+.home-model-center { background:var(--brand-blue); }
+.home-hero-index { color:var(--charcoal); background:var(--cream-accent); }
+.home-model-connector, .placement-connector { color:var(--amalfi-blue); }
+.image-service-line { background:var(--accent-yellow); }
+::selection { background:var(--cream-accent); color:var(--charcoal); }

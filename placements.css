@@ -88,18 +88,11 @@
     max-width:
         950px;
 
-    font-size:
-        clamp(
-            4rem,
-            8vw,
-            8.3rem
-        );
+    font-size: clamp(2.5rem,4.8vw,4.6rem);
 
-    line-height:
-        0.93;
+    line-height: 1.13;
 
-    letter-spacing:
-        -0.07em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -140,8 +133,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.4rem;
@@ -152,8 +144,7 @@
     line-height:
         1.5 !important;
 
-    letter-spacing:
-        -0.025em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -332,8 +323,7 @@
 
 .placement-node-chore {
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -415,15 +405,9 @@
     max-width:
         320px;
 
-    font-size:
-        clamp(
-            2.3rem,
-            3.2vw,
-            4rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
-    letter-spacing:
-        -0.05em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -452,13 +436,7 @@
 
 .placement-node-chore p {
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.67
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -611,8 +589,7 @@
             2.4rem
         );
 
-    letter-spacing:
-        -0.035em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -848,8 +825,7 @@
 
 .placement-route-standard {
 
-    background:
-        var(--charcoal);
+    background: var(--brand-strong);
 
     color:
         var(--white);
@@ -894,13 +870,7 @@
 .placement-route-standard
 .placement-route-top {
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.45
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -965,12 +935,7 @@
     max-width:
         620px;
 
-    font-size:
-        clamp(
-            3rem,
-            5vw,
-            5.4rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1003,13 +968,7 @@
 .placement-route-standard
 .placement-route-content > p {
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.7
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -1046,13 +1005,7 @@
 .placement-route-standard
 .placement-route-note {
 
-    border-color:
-        rgba(
-            255,
-            255,
-            255,
-            0.28
-        );
+    border-color: rgba(255,255,255,.95);
 
 }
 
@@ -1147,8 +1100,7 @@
         var(--deep-teal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         3rem;
@@ -1156,8 +1108,7 @@
     font-weight:
         500;
 
-    letter-spacing:
-        -0.06em;
+    letter-spacing: -0.02em;
 
 }
 
@@ -1209,8 +1160,7 @@
         var(--charcoal);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.35rem;
@@ -1331,8 +1281,7 @@
         var(--white);
 
     font-family:
-        "Manrope",
-        sans-serif;
+        var(--font-family);
 
     font-size:
         1.4rem;
@@ -1345,13 +1294,7 @@
     margin-top:
         10px;
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.66
-        );
+    color: rgba(255,255,255,.95);
 
     line-height:
         1.65;
@@ -1404,13 +1347,7 @@
 
 .placement-flow-footer p {
 
-    color:
-        rgba(
-            255,
-            255,
-            255,
-            0.65
-        );
+    color: rgba(255,255,255,.95);
 
 }
 
@@ -1611,12 +1548,7 @@
     max-width:
         500px;
 
-    font-size:
-        clamp(
-            2.7rem,
-            4vw,
-            4.6rem
-        );
+    font-size: clamp(2rem,3.5vw,3.4rem);
 
 }
 
@@ -1830,12 +1762,7 @@
 
     .placement-hero h1 {
 
-        font-size:
-            clamp(
-                3.5rem,
-                15vw,
-                5.8rem
-            );
+        font-size: clamp(2rem,3.5vw,3.4rem);
 
     }
 
