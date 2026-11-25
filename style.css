@@ -5285,3 +5285,27 @@ body h2.editorial-heading { font-family:var(--font-family) !important; font-weig
 body .editorial-heading .heading-accent { font-family:var(--font-heading); font-style:italic; font-weight:400; color:var(--heading-accent); }
 :is(.bridge-client,.about-manifesto,.apply-path,.apply-documents,.client-hero-panel,.client-health-panel,.client-after,.contact-route-dark,.contact-intro-note,.contact-close,.hiw-step-dark,.hiw-perspective-client,.placement-node-chore,.placement-route-standard,.placement-flow,.svc-close,.services-close,.services-interlude,.svc-interlude) { --heading-ink:#ffffff; --heading-accent:#f1d35b; }
 body :is(.contact-hero,.legal-hero) h1 span { font-style:italic; color:var(--heading-accent); }
+
+/* Selected phrase highlights and varied inner-page surfaces. */
+.text-highlight { background:#f5e69e; color:#25282a; padding:.12em .08em; -webkit-box-decoration-break:clone; box-decoration-break:clone; }
+body :is(section,article).surface-paper { background:#fcfaf5; }
+body :is(section,article).surface-mint { background:#e3f1e9; }
+body :is(section,article).surface-blue { background:#e5f0f7; }
+body :is(section,article).surface-yellow { background:#fbf2cc; }
+body :is(.surface-paper,.surface-mint,.surface-blue,.surface-yellow) {
+ --heading-ink:#25282a; --heading-accent:#246f69; --teal:#246f69;
+ color:#25282a;
+}
+body :is(.surface-paper,.surface-mint,.surface-blue,.surface-yellow) :is(h2,h3,p,li,label,legend) { color:#25282a; }
+body :is(.surface-paper,.surface-mint,.surface-blue,.surface-yellow) :is(.section-label,.hiw-perspective-kicker) { color:#246f69; }
+body :is(.svc-close,.client-after,.contact-close).surface-yellow :is(a,span) { color:#246f69; }
+body .hiw-perspective.surface-mint :is(a,span) { color:#246f69; }
+body :is(.surface-paper,.surface-mint,.surface-blue,.surface-yellow) .btn-primary { background:#246f69; color:white; }
+body :is(.surface-paper,.surface-mint,.surface-blue,.surface-yellow) .btn-secondary { color:#246f69; border-color:#246f69; }
+body .hiw-step:not(.hiw-step-dark):nth-child(1) { background:#fcfaf5; }
+body .hiw-step:not(.hiw-step-dark):nth-child(2) { background:#e3f1e9; }
+body .hiw-step:not(.hiw-step-dark):nth-child(3) { background:#e5f0f7; }
+/* Preserve readable copy within retained teal panels on the lighter sections. */
+body main :is(.apply-documents,.contact-intro-note,.client-health-panel,.placement-node-chore) :is(h3,p) { color:white; }
+body main .contact-close.surface-yellow strong { color:#246f69; }
+body main .hiw-perspective-client.surface-mint .hiw-mini-process p { color:#25282a; }
