@@ -13,7 +13,7 @@
 .legal-page {
 
     background:
-        var(--white);
+        var(--canvas);
 
     color:
         var(--charcoal);
@@ -33,7 +33,7 @@
         110px;
 
     background:
-        var(--white);
+        var(--canvas);
 
     border-bottom:
         1px solid var(--line);
@@ -183,7 +183,7 @@
         130px;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -526,7 +526,7 @@
         120px;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 

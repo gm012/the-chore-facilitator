@@ -16,7 +16,7 @@
         120px;
 
     background:
-        var(--white);
+        var(--canvas);
 
     border-bottom:
         1px solid var(--line);
@@ -232,7 +232,7 @@
         130px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
     border-bottom:
         1px solid var(--line);
@@ -457,7 +457,7 @@
         1px;
 
     background:
-        rgba(255, 255, 255, 0.12);
+        rgba(242,237,227,0.12);
 
 }
 
@@ -768,7 +768,7 @@
         130px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 

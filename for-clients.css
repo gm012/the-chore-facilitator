@@ -16,7 +16,7 @@
         120px;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -393,7 +393,7 @@
         130px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -895,7 +895,7 @@
         1px solid var(--line-strong);
 
     background:
-        var(--white);
+        var(--canvas);
 
     color:
         var(--charcoal);

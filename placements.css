@@ -16,7 +16,7 @@
         120px;
 
     background:
-        var(--white);
+        var(--canvas);
 
     border-bottom:
         1px solid var(--line);
@@ -219,7 +219,7 @@
         130px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -619,7 +619,7 @@
         130px;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -737,7 +737,7 @@
         10px 16px;
 
     background:
-        var(--white);
+        var(--canvas);
 
     color:
         var(--deep-teal);
@@ -1066,7 +1066,7 @@
         130px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
@@ -1408,7 +1408,7 @@
         110px 0;
 
     background:
-        var(--white);
+        var(--canvas);
 
 }
 
