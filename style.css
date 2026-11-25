@@ -5309,3 +5309,28 @@ body .hiw-step:not(.hiw-step-dark):nth-child(3) { background:#e5f0f7; }
 body main :is(.apply-documents,.contact-intro-note,.client-health-panel,.placement-node-chore) :is(h3,p) { color:white; }
 body main .contact-close.surface-yellow strong { color:#246f69; }
 body main .hiw-perspective-client.surface-mint .hiw-mini-process p { color:#25282a; }
+/* Stacked About connector: lines share the circle's row, logo has its own space. */
+@media (max-width:1050px) {
+ .bridge-grid .bridge-center {
+  display:grid;
+  grid-template-columns:minmax(0,1fr) 74px minmax(0,1fr);
+  grid-template-rows:74px auto;
+  align-items:center;
+  justify-items:center;
+  column-gap:14px;
+  row-gap:24px;
+  padding:32px 0;
+  min-height:0;
+ }
+ .bridge-grid .bridge-center::before,
+ .bridge-grid .bridge-center::after {
+  position:static;
+  width:100%;
+  height:1px;
+  grid-row:1;
+ }
+ .bridge-grid .bridge-center::before { grid-column:1; }
+ .bridge-grid .bridge-center::after { grid-column:3; }
+ .bridge-grid .bridge-mark { grid-column:2; grid-row:1; }
+ .bridge-grid .bridge-center .bridge-logo { grid-column:1 / -1; grid-row:2; margin:0; }
+}
